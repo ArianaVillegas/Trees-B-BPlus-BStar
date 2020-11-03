@@ -60,7 +60,7 @@ template <class T, int BTREE_ORDER = 3> class BTree {
     };
 
     typedef std::shared_ptr<pagemanager> pageManager;
-    typedef Page<T, BTREE_ORDER> BTreePage;
+    typedef Page BTreePage;
 
     pageManager pm;
 

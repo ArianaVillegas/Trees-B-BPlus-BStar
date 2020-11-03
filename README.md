@@ -30,7 +30,7 @@ Build process
 
 ### Command-line
 ```
-./conda/recipes/utecdf/build.sh
+./build.sh
 ```
 
 run gtest:

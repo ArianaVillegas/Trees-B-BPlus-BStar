@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include <src/btree.h>
-#include <src/pagemanager.h>
+#include <btree.h>
+#include <pagemanager.h>
 
 
 // PAGE_SIZE 64 bytes
