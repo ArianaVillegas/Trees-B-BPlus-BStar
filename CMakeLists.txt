@@ -100,6 +100,7 @@ function (blazingdb_artifact)
 
     add_dependencies (coverage ${ARG_TARGET}-gtest-run)
   endif ()
+  set_target_properties(${ARG_TARGET} PROPERTIES LINKER_LANGUAGE CXX)
 endfunction ()
 
 
