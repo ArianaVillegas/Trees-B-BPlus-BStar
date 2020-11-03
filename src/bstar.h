@@ -15,7 +15,7 @@ template <class T, int BSTAR_ORDER = 3>
 class bstariterator {
 private:
     template <int SIZE = BSTAR_ORDER>
-    using Node = utec::disk::Node<T, SIZE>;
+    using Node = Node<T, SIZE>;
 
     enum blocksize {
         F_BLOCK = (2*BSTAR_ORDER-2)/3,
@@ -257,7 +257,7 @@ template <class T, int BSTAR_ORDER = 3>
 class bstar {
 public:
     template <int SIZE = BSTAR_ORDER>
-    using Node = utec::disk::Node<T, SIZE>;
+    using Node = Node<T, SIZE>;
 
     typedef bstariterator<T, BSTAR_ORDER> iterator;
 

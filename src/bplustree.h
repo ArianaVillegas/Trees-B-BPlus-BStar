@@ -97,8 +97,8 @@ public:
 template<typename T, int ORDER = 3>
 class BPlusTree{
 
-  using node = bd2::Node<T,ORDER>;
-  using iterator = bd2::BPlusTreeIterator<T,ORDER>;
+  using node = Node<T,ORDER>;
+  using iterator = BPlusTreeIterator<T,ORDER>;
   using diskManager = std::shared_ptr<pagemanager>;
 
   enum state { OVERFLOW, NORMAL}; //state of the node insertion
@@ -150,7 +150,7 @@ class BPlusTree{
      */
     node readNode(long disk_id){
         node new_node(-1);
-        disk_manager->read(disk_id, new_node);
+        disk_manager->recover(disk_id, new_node);
         return new_node;
     }
 
@@ -334,7 +334,7 @@ public:
         disk_manager = d_manager;
 
         if (!disk_manager->is_empty())
-            disk_manager->read(0, header);
+            disk_manager->recover(0, header);
         else{  
             //Init the file with the header info
             node root (header.disk_id, true);
@@ -641,7 +641,7 @@ public:
 template <class T, int ORDER>
 class BPlusTreeIterator{
 
-    using node = bd2::Node<T, ORDER>;
+    using node = Node<T, ORDER>;
     using diskManager = std::shared_ptr<pagemanager>;
     
     long node_disk_id; //node id on disk
@@ -657,7 +657,7 @@ class BPlusTreeIterator{
      */
     node readNode(long disk_id){
         node new_node(-1);
-        disk_manager->read(disk_id, new_node);
+        disk_manager->recover(disk_id, new_node);
         return new_node;
     }
 
