@@ -33,6 +33,7 @@
 
 # Clion
 .idea/
-CMakeLists.txt
+build/
+*.index
 
 cmake-build-debug/

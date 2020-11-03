@@ -35,7 +35,7 @@ Build process
 
 run gtest:
 ```
-./build/bstar_tree-gtest
+./build/btrees-gtest
 ```
 
 or 

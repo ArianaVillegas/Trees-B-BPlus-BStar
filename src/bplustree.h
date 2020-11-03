@@ -12,7 +12,7 @@ template <class T, int ORDER>
 class BPlusTreeIterator;
 
 template<class T, int ORDER>
-class Node{
+class BPlusTreeNode{
 
     T keys [ORDER + 1];
     long children [ORDER + 2];
@@ -32,23 +32,23 @@ class Node{
 public:
 
     /**
-     * @brief Construct a new Node object
+     * @brief Construct a new BPlusTreeNode object
          *
      * @param d_id diskManager id of the node on disk
      */
-    Node(long d_id){
+    BPlusTreeNode(long d_id){
         disk_id = d_id;
         initChildrensWithZeros();
 
     };
 
     /**
-     * @brief Construct a new Node object for leaf
+     * @brief Construct a new BPlusTreeNode object for leaf
      *
      * @param d_id
      * @param is_leaf
      */
-    Node(long d_id, bool is_leaf_flag){
+    BPlusTreeNode(long d_id, bool is_leaf_flag){
         disk_id = d_id;
         is_leaf = is_leaf_flag;
         initChildrensWithZeros();
@@ -97,7 +97,7 @@ public:
 template<typename T, int ORDER = 3>
 class BPlusTree{
 
-  using node = Node<T,ORDER>;
+  using node = BPlusTreeNode<T,ORDER>;
   using iterator = BPlusTreeIterator<T,ORDER>;
   using diskManager = std::shared_ptr<pagemanager>;
 
@@ -114,7 +114,7 @@ class BPlusTree{
   protected:
 
     /**
-     * @brief Create a Node object by a isLeaf flag
+     * @brief Create a BPlusTreeNode object by a isLeaf flag
      *
      * @param isLeaf if the node is a leaf node
      * @return node node created
@@ -127,7 +127,7 @@ class BPlusTree{
     }
 
     /**
-     * @brief Create a Node object by a disk_id and isLeaf flag,
+     * @brief Create a BPlusTreeNode object by a disk_id and isLeaf flag,
      * Its create a node with the same disk id of a previous one,
      * it is used in the split function to overwrite an splitted
      * node with just the left child values
@@ -641,7 +641,7 @@ public:
 template <class T, int ORDER>
 class BPlusTreeIterator{
 
-    using node = Node<T, ORDER>;
+    using node = BPlusTreeNode<T, ORDER>;
     using diskManager = std::shared_ptr<pagemanager>;
     
     long node_disk_id; //node id on disk
