@@ -1,26 +1,26 @@
 #pragma once
 #include <iostream>
+#include <string>
 #include <stdio.h>
 #include <string.h>
-template<const int ORDER = 10>
-class Record{
-    char value[ORDER];
+template<const unsigned N = 10, const unsigned int L = 1>
+struct Record{
+    char value[N];
+    unsigned long dirs[L];
+    unsigned offsets[L];
 
-public:
-    Record(){}
+    Record() = default;
 
     Record(const char* inValue){
         int charSize = sizeof(value);
-        int i = 0;
-        for (; i < ORDER-1 && i < charSize; i++) {
-            value[i] = inValue[i];
-        }
-        value[i] = 0;
+        strcpy(value, inValue);
+        memset(dirs, 0, L);
+        memset(offsets, 0, L);
     }
 
     Record& operator=(const Record& record) {
         int i = 0;
-        for (; i < ORDER-1; i++) {
+        for (; i < N-1; i++) {
             value[i] = record.value[i];
         }
         value[i] = 0;
@@ -33,8 +33,7 @@ public:
     }
 
     friend bool operator== (const Record &r1, const Record &r2){
-        int result = strcmp(r1.value, r2.value);
-        return result==0;
+        return std::string{r1.value} == std::string{r2.value};
     }
 
     friend bool operator!= (const Record &r1, const Record &r2){
@@ -42,27 +41,19 @@ public:
     }
 
     friend bool operator< (const Record &r1, const Record &r2){
-        int i = 0;
-        while(r1.value[i] == r2.value[i])i++;
-        return r1.value[i]< r2.value[i];
+        return std::string{r1.value} < std::string{r2.value};
     }
 
     friend bool operator<= (const Record &r1, const Record &r2){
-        int i = 0;
-        while(r1.value[i] == r2.value[i])i++;
-        return r1.value[i] <= r2.value[i];
+        return std::string{r1.value} <= std::string{r2.value};
     }
 
     friend bool operator> (const Record &r1, const Record &r2){
-        int i = 0;
-        while(r1.value[i] == r2.value[i])i++;
-        return r1.value[i] > r2.value[i];
+        return std::string{r1.value} > std::string{r2.value};
     }
 
     friend bool operator>= (const Record &r1, const Record &r2){
-        int i = 0;
-        while(r1.value[i] == r2.value[i])i++;
-        return r1.value[i] >= r2.value[i];
+        return std::string{r1.value} >= std::string{r2.value};
     }
 
 

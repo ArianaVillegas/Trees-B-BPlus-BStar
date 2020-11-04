@@ -54,8 +54,8 @@ template <class T, int BTREE_ORDER = 3> class BTree {
     } header;
     
     enum state {
-      OVERFLOW,
-      UNDERFLOW,
+      BT_OVERFLOW,
+      BT_UNDERFLOW,
       NORMAL,
     };
 
@@ -97,7 +97,7 @@ public:
     void insert(const T &value, const long dataId = -1) {
         BTreePage root = readPage(header.rootId);
         int state = insert(root, value, dataId);
-        if (state == OVERFLOW) splitRoot();
+        if (state == BT_OVERFLOW) splitRoot();
     }
 
     int insert(BTreePage &ptr, const T &value, const long dataId) {
@@ -112,9 +112,9 @@ public:
             long pageId = ptr.children[pos];
             BTreePage child = readPage(pageId);
             int state = insert(child, value, dataId);
-            if (state == OVERFLOW) split(ptr, pos);
+            if (state == BT_OVERFLOW) split(ptr, pos);
         }
-        return ptr.isOverflow() ? OVERFLOW : NORMAL;
+        return ptr.isOverflow() ? BT_OVERFLOW : NORMAL;
     }
 
     void split(BTreePage &parent, int pos) {
@@ -193,7 +193,7 @@ public:
             BTreePage child = readPage(ptr.children[i]);
             print(child, level + 1, out);
           }
-          out << ptr.keys[i];
+          out << ptr.keys[i] << std::endl;
         }
         if (ptr.children[i]) {
           BTreePage child = readPage(ptr.children[i]);
