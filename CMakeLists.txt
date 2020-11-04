@@ -123,6 +123,7 @@ blazingdb_artifact (
         src/btree.h
         src/bplustree.h
         src/bstar.h
+        src/record.h
 
         TESTS
         tests/btree_test.cpp

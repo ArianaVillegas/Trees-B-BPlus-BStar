@@ -205,7 +205,7 @@ public:
 
   void print_tree() {
     BTreePage root = readPage(header.rootId);
-    print_tree(root, 0);
+      print_tree(root, 0);
     std::cout << "________________________\n";
   }
 
@@ -214,7 +214,7 @@ public:
     for (i = ptr.nKeys - 1; i >= 0; i--) {
       if (ptr.children[i + 1]) {
         BTreePage child = readPage(ptr.children[i + 1]);
-        print_tree(child, level + 1);
+          print_tree(child, level + 1);
       }
 
       for (int k = 0; k < level; k++) {
@@ -224,7 +224,7 @@ public:
     }
     if (ptr.children[i + 1]) {
       BTreePage child = readPage(ptr.children[i + 1]);
-      print_tree(child, level + 1);
+        print_tree(child, level + 1);
     }
   }
 
