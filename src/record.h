@@ -1,6 +1,8 @@
 #pragma once
+#include <algorithm>
 #include <iostream>
 #include <string>
+#include <iterator>
 #include <stdio.h>
 #include <string.h>
 template<const unsigned N = 10, const unsigned int L = 1>
@@ -19,11 +21,9 @@ struct Record{
     }
 
     Record& operator=(const Record& record) {
-        int i = 0;
-        for (; i < N-1; i++) {
-            value[i] = record.value[i];
-        }
-        value[i] = 0;
+        strcpy(value, record.value);
+        std::copy(record.dirs, std::end(record.dirs), dirs);
+        std::copy(record.offsets, std::end(record.offsets), offsets);
         return *this;
     }
 
