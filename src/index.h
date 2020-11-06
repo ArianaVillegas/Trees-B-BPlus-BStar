@@ -4,6 +4,7 @@
 #include <memory>
 #include <vector>
 #include <fstream>
+#include <optional>
 #include "pagemanager.h"
 
 template<template<typename U, int K> typename DS, typename T, int S>
@@ -33,7 +34,6 @@ class Index {
         }
 
     void insert(T k) {
-        // std::cout << "inserting " << k.value << std::endl;
         datastructure.insert(k);
     }
 
@@ -43,6 +43,17 @@ class Index {
 
     void print_tree() {
         datastructure.print_tree();
+    }
+
+    void find(const char* s) {
+        T t(s);
+        datastructure.start_measures();
+        auto opt = datastructure.find(t);
+        auto [ time, accesses ] = datastructure.end_measures();
+        if(opt.has_value())
+            std::cout << opt.value();
+        std::cout << "tiempo: " << time << std::endl;
+        std::cout << "accesos a disco: " << accesses << std::endl;
     }
 
     void execute() {

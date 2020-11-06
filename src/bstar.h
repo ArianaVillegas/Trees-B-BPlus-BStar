@@ -1,7 +1,6 @@
 #pragma once
 
 #include "pagemanager.h"
-#include <bits/stdc++.h>
 #include <memory>
 #include <stack>
 #include <queue>
