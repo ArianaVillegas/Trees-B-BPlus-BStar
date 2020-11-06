@@ -53,7 +53,7 @@ public:
     bstariterator(std::shared_ptr<pagemanager> &pm, const bstariterator& other): 
         pm(pm), node_id(other.node_id), index(other.index), q(other.q) {}
 
-    void find(const T &key) {
+    void find_itr(const T &key) {
         Node<2*F_BLOCK> n = read_root();
         int lb = 0;
         while (lb < n.count && n.keys[lb] < key) {
@@ -710,9 +710,9 @@ public:
         return remove(k,temp,root);
     }
 
-    iterator find(const T &key) {
+    iterator find_itr(const T &key) {
         iterator it(this->pm);
-        it.find(key);
+        it.find_itr(key);
         return it->key;
     }
 
@@ -727,7 +727,7 @@ public:
     }
 
     T* find(const T &key) {
-        auto itr = find(key);
+        auto itr = find_itr(key);
         if(itr == end())
             return 0;
         return &(*itr);
@@ -748,7 +748,7 @@ public:
         this->access = 0;
     }
 
-    pair<double,long> end_measures(){
+    std::pair<double,long> end_measures(){
         time(&t_end);
         double time_taken = double(t_end - t_start); 
         return {time_taken, this->access};
