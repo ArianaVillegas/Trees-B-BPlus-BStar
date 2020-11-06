@@ -81,9 +81,8 @@ TEST_F(DiskBasedBtree, Persistence) {
     }
     bt.print_tree();
     Record<>a("magenta");
-    auto re = bt.find(a);
-    if (re) std::cout << re;
-    else std::cout << "No hay\n";
+    std:: cout << bt.find(a).value_or("No hay");
+
 
     std::ostringstream out;
     bt.print(out);
@@ -107,7 +106,7 @@ TEST_F(DiskBasedBPlusTree, IndexingRandomElements) {
     for(auto c : all_values) {
         Record<> r(c.c_str());
         bt.insert(r);
-        bt.showTree();
+        bt.print_tree();
     }
     std::ostringstream out;
     bt.print(out);
@@ -125,9 +124,9 @@ TEST_F(DiskBasedBPlusTree, Persistence) {
         all_values.push_back(c);
         Record<> r(c.c_str());
         bt.insert(r);
-        bt.showTree();
+        bt.print_tree();
     }
-    bt.showTree();
+    bt.print_tree();
 
     std::ostringstream out;
     bt.print(out);

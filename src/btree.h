@@ -61,6 +61,9 @@ template <class T, int BTREE_ORDER = 3> class BTree {
 
     typedef std::shared_ptr<pagemanager> pageManager;
     typedef Page BTreePage;
+    // Exection time and disk access
+    time_t t_start, t_end;
+    long access;
 
     pageManager pm;
 
@@ -96,6 +99,7 @@ public:
 
     void insert(const T &value, const long dataId = -1) {
         BTreePage root = readPage(header.rootId);
+        access++;
         int state = insert(root, value, dataId);
         if (state == BT_OVERFLOW) splitRoot();
     }
@@ -111,6 +115,7 @@ public:
         } else {
             long pageId = ptr.children[pos];
             BTreePage child = readPage(pageId);
+            access++;
             int state = insert(child, value, dataId);
             if (state == BT_OVERFLOW) split(ptr, pos);
         }
@@ -119,6 +124,7 @@ public:
 
     void split(BTreePage &parent, int pos) {
         BTreePage overflowPage = this->readPage(parent.children[pos]);
+        access++;
         BTreePage newPage = this->createPage(overflowPage.isLeaf);
 
         int iter = BTREE_ORDER / 2;
@@ -145,6 +151,7 @@ public:
 
     void splitRoot() {
         BTreePage overflowPage = this->readPage(this->header.rootId);
+        access++;
         BTreePage leftPage = this->createPage(overflowPage.isLeaf);
         BTreePage rightPage = this->createPage(overflowPage.isLeaf);
 
@@ -189,15 +196,15 @@ public:
     void print(BTreePage &ptr, int level, std::ostream& out) {
         int i;
         for (i = 0; i < ptr.nKeys; i++) {
-          if (ptr.children[i]) {
-            BTreePage child = readPage(ptr.children[i]);
-            print(child, level + 1, out);
-          }
-          out << ptr.keys[i] << std::endl;
+            if (ptr.children[i]) {
+                BTreePage child = readPage(ptr.children[i]);
+                print(child, level + 1, out);
+            }
+            out << ptr.keys[i];
         }
         if (ptr.children[i]) {
-          BTreePage child = readPage(ptr.children[i]);
-          print(child, level + 1, out);
+            BTreePage child = readPage(ptr.children[i]);
+            print(child, level + 1, out);
         }
     }
 public:
@@ -228,12 +235,13 @@ public:
     }
   }
 
-    T* find(T &value) {
+    std::optional<T> find(T &value) {
         BTreePage root = readPage(header.rootId);
+        access++;
         return find(root, value);
     }
-    
-    T* find(BTreePage &ptr, T &value) {
+
+    std::optional<T> find(BTreePage &ptr, T &value) {
         int pos = 0;
         while (pos < ptr.nKeys && ptr.keys[pos] < value)
             pos++;
@@ -241,12 +249,24 @@ public:
         if (!ptr.isLeaf) {
             long pageId = ptr.children[pos];
             BTreePage child = readPage(pageId);
+            access++;
             return find(child, value);
 
         }
-        T *result;
-        result = ptr.keys[pos] == value? &ptr.keys[pos]: nullptr;
-        return result;
+        if (ptr.keys[pos] == value) {
+            return ptr.keys[pos];
+        } else return std::nullopt;
+    }
+
+    void start_measures(){
+        time(&t_start);
+        this->access = 0;
+    }
+
+    std::pair<double,long> end_measures(){
+        time(&t_end);
+        double time_taken = double(t_end - t_start);
+        return {time_taken, this->access};
     }
 
 
