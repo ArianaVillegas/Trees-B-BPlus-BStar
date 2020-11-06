@@ -1,6 +1,7 @@
 #pragma once
 
 #include "pagemanager.h"
+#include <bits/stdc++.h>
 #include <memory>
 #include <stack>
 #include <queue>
@@ -726,11 +727,11 @@ public:
         return it;
     }
 
-    T* find(const T &key) {
+    std::optional<T> find(const T &key) {
         auto itr = find_itr(key);
-        if(itr == end())
-            return 0;
-        return &(*itr);
+        if(itr != end())
+            return *itr;
+        return std::nullopt;
     }
 
     void dfs() {

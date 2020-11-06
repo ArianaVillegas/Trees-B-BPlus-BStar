@@ -98,7 +98,7 @@ class BPlusTree{
   using iterator = BPlusTreeIterator<T,ORDER>;
   using diskManager = std::shared_ptr<pagemanager>;
 
-  enum state { OVERFLOW, NORMAL}; //state of the node insertion
+  enum state { BP_OVERFLOW, NORMAL}; //state of the node insertion
 
   diskManager disk_manager; // disk manager of the index file
 
@@ -183,12 +183,12 @@ class BPlusTree{
         } else {        //search for the child node to insert
             long page_id = ptr_node.children[pos];
             node child = readNode(page_id);
-            int state = insert(child, value);
-            if (state == OVERFLOW){
+            int state = insert(child, value, record_id);
+            if (state == BP_OVERFLOW){
                 splitNode(ptr_node, pos);
             }
         }
-        return ptr_node.isOverflow() ? OVERFLOW : NORMAL; //the insertion status
+        return ptr_node.isOverflow() ? BP_OVERFLOW : NORMAL; //the insertion status
     }
 
     /**
@@ -342,8 +342,8 @@ public:
      */
     void insert(const T value){
         node root = readNode(header.disk_id);
-        int state = insert(root, value);
-        if (state == OVERFLOW) {
+        int state = insert(root, value, record_id);
+        if (state == BP_OVERFLOW) {
             splitRoot();
         }
     }
@@ -353,7 +353,7 @@ public:
      * @brief Print the tree values to the console
      * 
      */
-    void showTree() {
+    void print_tree() {
         node root = readNode(header.disk_id);
         showTree(root, 0);
         std::cout << "________________________\n";
