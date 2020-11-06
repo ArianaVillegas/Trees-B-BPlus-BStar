@@ -16,6 +16,7 @@ int main() {
     Index<bstar, Record<100, 6>, 10> bstarIndex(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
     bstarIndex.execute();
     bstarIndex.print_tree();
+    bstarIndex.find("abridgment");
     // Index<BPlusTree, Record<80, 6>, 10> bplusIndex(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
     // bplusIndex.execute();
     // bplusIndex.print_tree();
