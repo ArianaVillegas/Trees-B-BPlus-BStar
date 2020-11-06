@@ -5,6 +5,9 @@
 #include <iterator>
 #include <stdio.h>
 #include <string.h>
+
+const int C = 300;
+
 template<const unsigned N = 10, const unsigned int L = 1>
 struct Record{
     char value[N];
@@ -43,12 +46,13 @@ struct Record{
         file5.seekg(record.dirs[4]);
         file6.seekg(record.dirs[5]);
         out << record.value << ":\t";
-        char *content1 = new char[record.offsets[0]];
-        char *content2 = new char[record.offsets[1]];
-        char *content3 = new char[record.offsets[2]];
-        char *content4 = new char[record.offsets[3]];
-        char *content5 = new char[record.offsets[4]];
-        char *content6 = new char[record.offsets[5]];
+        char content1[C], content2[C], content3[C], content4[C], content5[C], content6[C];
+        memset(content1, 0, C);
+        memset(content2, 0, C);
+        memset(content3, 0, C);
+        memset(content4, 0, C);
+        memset(content5, 0, C);
+        memset(content6, 0, C);
         file1.read(content1, record.offsets[0]);
         file2.read(content2, record.offsets[1]);
         file3.read(content3, record.offsets[2]);
@@ -72,13 +76,7 @@ struct Record{
             out << content5;
         out << "\t L: ";
         if(record.dirs[5])
-            out << content6;
-        delete[] content1;
-        delete[] content2;
-        delete[] content3;
-        delete[] content4;
-        delete[] content5;
-        delete[] content6;        
+            out << content6;     
         return out;
     }
 
