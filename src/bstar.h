@@ -319,7 +319,7 @@ private:
     }
 
     template <int SIZE>
-    bool write_node(long page_id, Node<SIZE> n) { 
+    void write_node(long page_id, Node<SIZE> n) { 
         pm->save(page_id, n);
         this->access++;
     }
@@ -713,7 +713,7 @@ public:
     iterator find_itr(const T &key) {
         iterator it(this->pm);
         it.find_itr(key);
-        return it->key;
+        return it;
     }
 
     iterator begin() {
