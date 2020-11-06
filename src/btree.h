@@ -228,6 +228,9 @@ public:
     }
   }
 
+  T* find(T value) {
+
+    }
 
 
 };

@@ -4,6 +4,7 @@
 #include <bstar.h>
 #include <pagemanager.h>
 #include <record.h>
+#include <index.h>
 #include <numeric>
 
 
@@ -86,6 +87,8 @@ TEST_F(DiskBasedBtree, Persistence) {
     std::string result = std::accumulate(all_values.begin(), all_values.end(), std::string(""));
     EXPECT_EQ(out.str(), result.c_str());
 }
+
+
 
 /* B+Tree Tests */
 
