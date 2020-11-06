@@ -5,6 +5,7 @@
 #include <vector>
 #include <fstream>
 #include <optional>
+#include <algorithm>
 #include "pagemanager.h"
 
 template<template<typename U, int K> typename DS, typename T, int S>

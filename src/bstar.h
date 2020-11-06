@@ -4,6 +4,7 @@
 #include <memory>
 #include <stack>
 #include <queue>
+#include <time.h>
 
 template <class T, int BSTAR_ORDER>
 class bstar;
@@ -27,6 +28,9 @@ private:
 
     int index;
     long node_id;
+
+    // Exection time and disk access
+    long access;
 public:
     bstariterator(std::shared_ptr<pagemanager> &pm) : 
         pm(pm), node_id(-1), index(0){}
@@ -109,6 +113,7 @@ public:
     Node<> read_node(long page_id) {
         Node<> n{-1};
         pm->recover(page_id, n);
+        access++;
         return n;
     }
 
@@ -204,6 +209,14 @@ public:
             return n.children[index]; 
         }
     }
+
+    void start_measures(){
+        this->access = 0;
+    }
+
+    long end_measures(){
+        return this->access;
+    }
 };
 
 
@@ -282,7 +295,8 @@ public:
     } header;
 
     // Exection time and disk access
-    time_t t_start, t_end;
+    clock_t t_start, t_end;
+    double time_taken;
     long access;
 
 private:
@@ -712,7 +726,10 @@ public:
 
     iterator find_itr(const T &key) {
         iterator it(this->pm);
+        it.start_measures();
         it.find_itr(key);
+        auto measures = it.end_measures();
+        access += measures;
         return it;
     }
 
@@ -744,13 +761,13 @@ public:
     }
 
     void start_measures(){
-        time(&t_start);
+        t_start = clock();
         this->access = 0;
     }
 
     std::pair<double,long> end_measures(){
-        time(&t_end);
-        double time_taken = double(t_end - t_start); 
+        t_end = clock();
+        time_taken += double(t_end - t_start)/CLOCKS_PER_SEC; 
         return {time_taken, this->access};
     }
 
