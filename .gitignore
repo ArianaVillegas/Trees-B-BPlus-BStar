@@ -37,3 +37,6 @@ build/
 *.index
 
 cmake-build-debug/
+
+#index
+*.db
