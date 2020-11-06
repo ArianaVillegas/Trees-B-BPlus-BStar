@@ -53,7 +53,7 @@ public:
     bstariterator(std::shared_ptr<pagemanager> &pm, const bstariterator& other): 
         pm(pm), node_id(other.node_id), index(other.index), q(other.q) {}
 
-    void find(const T &key) {
+    void find_itr(const T &key) {
         Node<2*F_BLOCK> n = read_root();
         int lb = 0;
         while (lb < n.count && n.keys[lb] < key) {
@@ -281,6 +281,10 @@ public:
         long erase{-1};
     } header;
 
+    // Exection time and disk access
+    time_t t_start, t_end;
+    long access;
+
 private:
     std::shared_ptr<pagemanager> pm;
 
@@ -303,18 +307,21 @@ private:
     Node<> read_node(long page_id) {
         Node<> n{-1};
         pm->recover(page_id, n);
+        this->access++;
         return n;
     }
 
     Node<2*F_BLOCK> read_root() {
         Node<2*F_BLOCK> n{-1};
         pm->recover(1, n);
+        this->access++;
         return n;
     }
 
     template <int SIZE>
     bool write_node(long page_id, Node<SIZE> n) { 
         pm->save(page_id, n);
+        this->access++;
     }
 
     template <int SIZE>
@@ -703,10 +710,10 @@ public:
         return remove(k,temp,root);
     }
 
-    iterator find(const T &key) {
+    iterator find_itr(const T &key) {
         iterator it(this->pm);
-        it.find(key);
-        return it;
+        it.find_itr(key);
+        return it->key;
     }
 
     iterator begin() {
@@ -719,6 +726,13 @@ public:
         return it;
     }
 
+    T* find(const T &key) {
+        auto itr = find_itr(key);
+        if(itr == end())
+            return 0;
+        return &(*itr);
+    }
+
     void dfs() {
         Node<2*F_BLOCK> root = read_root();
         dfs(root);
@@ -727,6 +741,17 @@ public:
     void bfs() {
         Node<2*F_BLOCK> root = read_root();
         bfs(root);
+    }
+
+    void start_measures(){
+        time(&t_start);
+        this->access = 0;
+    }
+
+    std::pair<double,long> end_measures(){
+        time(&t_end);
+        double time_taken = double(t_end - t_start); 
+        return {time_taken, this->access};
     }
 
     void print_tree() {
