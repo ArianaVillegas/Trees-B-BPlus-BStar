@@ -281,6 +281,10 @@ public:
         long erase{-1};
     } header;
 
+    // Exection time and disk access
+    time_t start, end;
+    long access;
+
 private:
     std::shared_ptr<pagemanager> pm;
 
@@ -303,18 +307,21 @@ private:
     Node<> read_node(long page_id) {
         Node<> n{-1};
         pm->recover(page_id, n);
+        this->access++;
         return n;
     }
 
     Node<2*F_BLOCK> read_root() {
         Node<2*F_BLOCK> n{-1};
         pm->recover(1, n);
+        this->access++;
         return n;
     }
 
     template <int SIZE>
     bool write_node(long page_id, Node<SIZE> n) { 
         pm->save(page_id, n);
+        this->access++;
     }
 
     template <int SIZE>
@@ -727,6 +734,17 @@ public:
     void bfs() {
         Node<2*F_BLOCK> root = read_root();
         bfs(root);
+    }
+
+    void start_measures(){
+        time(&start);
+        this->access = 0;
+    }
+
+    pair<double,long> end_measures(){
+        time(&end);
+        double time_taken = double(end - start); 
+        return {time_taken, this->access};
     }
 
     void print_tree() {
