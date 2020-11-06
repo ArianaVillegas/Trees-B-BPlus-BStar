@@ -767,7 +767,7 @@ public:
 
     std::pair<double,long> end_measures(){
         t_end = clock();
-        time_taken += double(t_end - t_start)/CLOCKS_PER_SEC; 
+        time_taken = double(t_end - t_start)/CLOCKS_PER_SEC; 
         return {time_taken, this->access};
     }
 
