@@ -27,13 +27,13 @@ class Index {
 
     public:
     template<typename K, typename ...Args>
-    explicit Index(std::string indexfile, K datafile, Args ...args):
-        datastructure{std::shared_ptr<pagemanager>{new pagemanager(indexfile, true)}} {
+    explicit Index(std::string indexfile, bool truncate, K datafile, Args ...args):
+        datastructure{std::shared_ptr<pagemanager>{new pagemanager(indexfile, truncate)}} {
             add_datafiles(datafile, args...);
         }
 
     void insert(T k) {
-        std::cout << "inserting " << k.value << std::endl;
+        // std::cout << "inserting " << k.value << std::endl;
         datastructure.insert(k);
     }
 
@@ -58,6 +58,8 @@ class Index {
         auto consume_data_from_stream = [&] (int i) {
             std::string key, rest;
             if(std::getline(streams[i], key, '\t')) {
+                std::transform(key.begin(), key.end(), key.begin(),
+                                [](unsigned char c){ return std::tolower(c); });
                 std::getline(streams[i], rest);
                 unsigned long pos = streams[i].tellg();
                 data[i] = Data{ key, pos - rest.length() - 1, static_cast<unsigned>(rest.length()) };
@@ -83,8 +85,6 @@ class Index {
 
         for(int i = 0; i < datafiles.size(); ++i) {
             std::ifstream file(datafiles[i]);
-            std::cout << datafiles[i] << std::endl;
-            std::cout << (file.is_open() ? "si" : "no") << std::endl;
             streams.push_back(std::move(file));
             consume_data_from_stream(i);
         }
@@ -92,7 +92,7 @@ class Index {
         for(std::string min_value = get_min_key(); min_value != ""; min_value = get_min_key()) {
             T t(min_value.c_str());
             for(int i = 0; i < data.size(); ++i) {
-                if(std::string{data[i].value} != "" && std::string{data[i].value} == min_value) {
+                if(data[i].value != "" && data[i].value == min_value) {
                     t.dirs[i] = data[i].dir;
                     t.offsets[i] = data[i].offset;
                     consume_data_from_stream(i);

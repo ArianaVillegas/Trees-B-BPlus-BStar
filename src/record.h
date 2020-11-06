@@ -16,12 +16,14 @@ struct Record{
     Record(const char* inValue){
         int charSize = sizeof(value);
         strcpy(value, inValue);
-        memset(dirs, 0, L);
-        memset(offsets, 0, L);
+        memset(dirs, 0, sizeof(unsigned long) * L);
+        memset(offsets, 0, sizeof(unsigned) * L);
     }
 
     Record& operator=(const Record& record) {
         strcpy(value, record.value);
+        memset(dirs, 0, sizeof(unsigned long) * L);
+        memset(offsets, 0, sizeof(unsigned) * L);
         std::copy(record.dirs, std::end(record.dirs), dirs);
         std::copy(record.offsets, std::end(record.offsets), offsets);
         return *this;
@@ -62,13 +64,13 @@ struct Record{
         out << "\t I: ";
         if(record.dirs[2])
             out << content3;
-        out << "\t L: ";
+        out << "\t P: ";
         if(record.dirs[3])
             out << content4;
-        out << "\t P: ";
+        out << "\t S: ";
         if(record.dirs[4])
             out << content5;
-        out << "\t S: ";
+        out << "\t L: ";
         if(record.dirs[5])
             out << content6;
         delete[] content1;
