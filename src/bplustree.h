@@ -108,6 +108,10 @@ class BPlusTree{
       long n_nodes = 0;
   } header;
 
+    // Exection time and disk access
+    time_t t_start, t_end;
+    long access;
+
   protected:
 
     /**
@@ -464,6 +468,7 @@ public:
      */
     std::optional<T> find (const T &val) {
         node root = readNode(header.disk_id);
+        access++;
         return find (root, val);
     }
 
@@ -482,6 +487,7 @@ public:
         if (!ptr.is_leaf){
             long page_id = ptr.children [pos];
             node child = readNode (page_id);
+            access++;
             return search (child, val);
         }
 
@@ -542,6 +548,17 @@ public:
         }
     }
 
+
+    void start_measures(){
+        time(&t_start);
+        this->access = 0;
+    }
+
+    std::pair<double,long> end_measures(){
+        time(&t_end);
+        double time_taken = double(t_end - t_start);
+        return {time_taken, this->access};
+    }
 
 
 };
@@ -727,5 +744,7 @@ public:
         node temp = readNode(node_disk_id);
         return temp.keys[keys_pos];
     }
+
+
 
 };
