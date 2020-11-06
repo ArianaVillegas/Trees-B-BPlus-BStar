@@ -189,15 +189,15 @@ public:
     void print(BTreePage &ptr, int level, std::ostream& out) {
         int i;
         for (i = 0; i < ptr.nKeys; i++) {
-          if (ptr.children[i]) {
-            BTreePage child = readPage(ptr.children[i]);
-            print(child, level + 1, out);
-          }
-          out << ptr.keys[i] << std::endl;
+            if (ptr.children[i]) {
+                BTreePage child = readPage(ptr.children[i]);
+                print(child, level + 1, out);
+            }
+            out << ptr.keys[i];
         }
         if (ptr.children[i]) {
-          BTreePage child = readPage(ptr.children[i]);
-          print(child, level + 1, out);
+            BTreePage child = readPage(ptr.children[i]);
+            print(child, level + 1, out);
         }
     }
 public:

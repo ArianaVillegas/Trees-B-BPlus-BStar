@@ -183,7 +183,7 @@ class BPlusTree{
         } else {        //search for the child node to insert
             long page_id = ptr_node.children[pos];
             node child = readNode(page_id);
-            int state = insert(child, value, record_id);
+            int state = insert(child, value);
             if (state == BP_OVERFLOW){
                 splitNode(ptr_node, pos);
             }
@@ -342,7 +342,7 @@ public:
      */
     void insert(const T value){
         node root = readNode(header.disk_id);
-        int state = insert(root, value, record_id);
+        int state = insert(root, value);
         if (state == BP_OVERFLOW) {
             splitRoot();
         }
