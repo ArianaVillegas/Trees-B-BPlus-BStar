@@ -713,7 +713,7 @@ public:
     iterator find(const T &key) {
         iterator it(this->pm);
         it.find(key);
-        return it;
+        return it->key;
     }
 
     iterator begin() {
@@ -724,6 +724,13 @@ public:
     iterator end() {
         iterator it(this->pm);
         return it;
+    }
+
+    T* find(const T &key) {
+        auto itr = find(key);
+        if(itr == end())
+            return 0;
+        return &(*itr);
     }
 
     void dfs() {
