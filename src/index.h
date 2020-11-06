@@ -46,22 +46,22 @@ class Index {
         datastructure.print_tree();
     }
 
-    // void experiment(std::string file_name) {
-    //     std::ifstream file(file_name);
-    //     while(std::getline(file_name)) {
-            
-    //     }
-    // }
+    void experiment(std::string file_name, std::string out_file) {
+        std::ifstream file(file_name);
+        std::ofstream outfile(out_file);
+        std::string str;
+        while(std::getline(file, str))
+            find(str.c_str(), outfile);
+    }
 
-    void find(const char* s) {
+    void find(const char* s, std::ofstream& out) {
         T t(s);
         datastructure.start_measures();
         auto opt = datastructure.find(t);
         auto [ time, accesses ] = datastructure.end_measures();
         if(opt.has_value())
-            std::cout << opt.value();
-        std::cout << "tiempo: " << time << std::endl;
-        std::cout << "accesos a disco: " << accesses << std::endl;
+            out << opt.value();
+        out << "\ttiempo: " << time << "\taccesos a disco: " << accesses << std::endl;
     }
 
     void execute() {
