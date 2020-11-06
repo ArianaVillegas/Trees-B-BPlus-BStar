@@ -228,6 +228,26 @@ public:
     }
   }
 
+    T* find(T &value) {
+        BTreePage root = readPage(header.rootId);
+        return find(root, value);
+    }
+    
+    T* find(BTreePage &ptr, T &value) {
+        int pos = 0;
+        while (pos < ptr.nKeys && ptr.keys[pos] < value)
+            pos++;
+        
+        if (!ptr.isLeaf) {
+            long pageId = ptr.children[pos];
+            BTreePage child = readPage(pageId);
+            return find(child, value);
+
+        }
+        T *result;
+        result = ptr.keys[pos] == value? &ptr.keys[pos]: nullptr;
+        return result;
+    }
 
 
 };

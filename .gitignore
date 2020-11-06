@@ -35,6 +35,7 @@
 .idea/
 build/
 *.index
+*.db
 
 cmake-build-debug/
 
