@@ -282,7 +282,7 @@ public:
     } header;
 
     // Exection time and disk access
-    time_t start, end;
+    time_t t_start, t_end;
     long access;
 
 private:
@@ -744,13 +744,13 @@ public:
     }
 
     void start_measures(){
-        time(&start);
+        time(&t_start);
         this->access = 0;
     }
 
     pair<double,long> end_measures(){
-        time(&end);
-        double time_taken = double(end - start); 
+        time(&t_end);
+        double time_taken = double(t_end - t_start); 
         return {time_taken, this->access};
     }
 
