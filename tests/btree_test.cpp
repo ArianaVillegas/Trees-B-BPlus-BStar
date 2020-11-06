@@ -80,6 +80,10 @@ TEST_F(DiskBasedBtree, Persistence) {
         bt.print_tree();
     }
     bt.print_tree();
+    Record<>a("magenta");
+    auto re = bt.find(a);
+    if (re) std::cout << re;
+    else std::cout << "No hay\n";
 
     std::ostringstream out;
     bt.print(out);

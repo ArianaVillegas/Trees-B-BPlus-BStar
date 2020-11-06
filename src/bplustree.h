@@ -456,60 +456,15 @@ public:
 
 
 
-    long findKey (node &ptr, const T &val, int &key_pos, int &disk_access){
-        int pos = 0;
-        while (pos < ptr.n_keys && ptr.keys[pos] < val)
-            pos++;
-
-        if (!ptr.is_leaf){
-            long page_id = ptr.children [pos];
-            node child = readNode (page_id);
-            disk_access++;
-            return findKey(child, val, key_pos, disk_access);
-        } else {
-            if (ptr.keys [pos] != val)
-                return -1;
-            else {
-                key_pos = pos;
-                return ptr.disk_id;
-            }
-        }
-
-    }
-
-    long findKey (node &ptr, const T &val, int &key_pos){
-        int pos = 0;
-        while (pos < ptr.n_keys && ptr.keys[pos] < val)
-            pos++;
-
-        if (!ptr.is_leaf){
-            long page_id = ptr.children [pos];
-            node child = readNode (page_id);
-            return findKey(child, val, key_pos);
-        } else {
-            if (ptr.keys [pos] != val)
-                return -1;
-            else {
-                key_pos = pos;
-                return ptr.disk_id;
-            }
-        }
-
-    }
 
 /**
      * @brief
      *
      * @param val
      */
-    void search (const T &val) {
+    T* find (const T &val) {
         node root = readNode(header.disk_id);
-        int res = search (root, val);
-        if (res == -1)
-            std::cout << "Not found\n";
-        else
-            std::cout << "Found!\n";
-
+        return find (root, val);
     }
 
     /**
@@ -519,7 +474,7 @@ public:
      * @param val
      * @return int
      */
-    int search (node &ptr, const T &val){
+    T* find (node &ptr, const T &val){
         int pos = 0;
         while (pos < ptr.n_keys && ptr.keys[pos] < val)
             pos++;
@@ -528,15 +483,11 @@ public:
             long page_id = ptr.children [pos];
             node child = readNode (page_id);
             return search (child, val);
-        } else {
-            if (ptr.keys [pos] != val){
-                return -1;
-            }else {
-                long page_record = ptr.children [pos];
-                return page_record;
-            }
-        }
-
+        } 
+        
+        T *result;
+        result = ptr.keys[pos] == val? &ptr.keys[pos]: nullptr;
+        return result;
     }
 
     /**
