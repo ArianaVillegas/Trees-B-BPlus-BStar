@@ -28,7 +28,7 @@ class Index {
     public:
     template<typename K, typename ...Args>
     explicit Index(std::string indexfile, K datafile, Args ...args):
-        datastructure{std::shared_ptr<pagemanager>{new pagemanager{indexfile}}} {
+        datastructure{std::shared_ptr<pagemanager>{new pagemanager(indexfile, true)}} {
             add_datafiles(datafile, args...);
         }
 
@@ -39,6 +39,10 @@ class Index {
 
     void print(std::ofstream& out) {
         datastructure.print(out);
+    }
+
+    void print_tree() {
+        datastructure.print_tree();
     }
 
     void execute() {
@@ -56,7 +60,7 @@ class Index {
             if(std::getline(streams[i], key, '\t')) {
                 std::getline(streams[i], rest);
                 unsigned long pos = streams[i].tellg();
-                data[i] = Data{ key, pos - rest.length(), static_cast<unsigned>(rest.length()) };
+                data[i] = Data{ key, pos - rest.length() - 1, static_cast<unsigned>(rest.length()) };
             }
             else
                 data[i] = Data{};
