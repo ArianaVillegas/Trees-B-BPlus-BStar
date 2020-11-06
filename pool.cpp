@@ -40,7 +40,7 @@ for (auto s:sizes){
     fileout.open(tpath, ios::trunc);
     while(s) {
         int i = rand()%pool_size;
-        fileout << pool[i]<< " ";
+        fileout << pool[i]<< std::endl;
         s--;
     }
     fileout.close();

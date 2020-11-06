@@ -46,6 +46,13 @@ class Index {
         datastructure.print_tree();
     }
 
+    // void experiment(std::string file_name) {
+    //     std::ifstream file(file_name);
+    //     while(std::getline(file_name)) {
+            
+    //     }
+    // }
+
     void find(const char* s) {
         T t(s);
         datastructure.start_measures();
