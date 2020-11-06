@@ -462,7 +462,7 @@ public:
      *
      * @param val
      */
-    T* find (const T &val) {
+    std::optional<T> find (const T &val) {
         node root = readNode(header.disk_id);
         return find (root, val);
     }
@@ -474,7 +474,7 @@ public:
      * @param val
      * @return int
      */
-    T* find (node &ptr, const T &val){
+     std::optional<T> find (node &ptr, const T &val){
         int pos = 0;
         while (pos < ptr.n_keys && ptr.keys[pos] < val)
             pos++;
@@ -483,11 +483,11 @@ public:
             long page_id = ptr.children [pos];
             node child = readNode (page_id);
             return search (child, val);
-        } 
-        
-        T *result;
-        result = ptr.keys[pos] == val? &ptr.keys[pos]: nullptr;
-        return result;
+        }
+
+        if (ptr.keys[pos] == val) {
+            return ptr.keys[pos];
+        } else return std::nullopt;
     }
 
     /**
