@@ -92,7 +92,7 @@ class Index {
         for(std::string min_value = get_min_key(); min_value != ""; min_value = get_min_key()) {
             T t(min_value.c_str());
             for(int i = 0; i < data.size(); ++i) {
-                if(data[i].value != "" && data[i].value == min_value) {
+                if(std::string{data[i].value} != "" && std::string{data[i].value} == min_value) {
                     t.dirs[i] = data[i].dir;
                     t.offsets[i] = data[i].offset;
                     consume_data_from_stream(i);

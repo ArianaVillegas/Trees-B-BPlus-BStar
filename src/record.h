@@ -31,9 +31,9 @@ struct Record{
         std::ifstream file1("data/processed_French.txt");
         std::ifstream file2("data/processed_German.txt");
         std::ifstream file3("data/processed_Italian.txt");
-        std::ifstream file4("data/processed_Latin.txt");
-        std::ifstream file5("data/processed_Portuguese.txt");
-        std::ifstream file6("../data/processed_Spanish.txt");
+        std::ifstream file4("data/processed_Portuguese.txt");
+        std::ifstream file5("data/processed_Spanish.txt");
+        std::ifstream file6("data/processed_Latin.txt");
         file1.seekg(record.dirs[0]);
         file2.seekg(record.dirs[1]);
         file3.seekg(record.dirs[2]);
@@ -53,7 +53,24 @@ struct Record{
         file4.read(content4, record.offsets[3]);
         file5.read(content5, record.offsets[4]);
         file6.read(content6, record.offsets[5]);
-        out << "F: " << content1 << "\t G: " << content2 << "\t I: " << content3 << "\t L: " << content4 << "\t P: " << content5 << "\t S: " << content6;
+        out << "F: ";
+        if(record.dirs[0])
+            out << content1;
+        out << "\t G: ";
+        if(record.dirs[1])
+            out << content2;
+        out << "\t I: ";
+        if(record.dirs[2])
+            out << content3;
+        out << "\t L: ";
+        if(record.dirs[3])
+            out << content4;
+        out << "\t P: ";
+        if(record.dirs[4])
+            out << content5;
+        out << "\t S: ";
+        if(record.dirs[5])
+            out << content6;
         delete[] content1;
         delete[] content2;
         delete[] content3;
