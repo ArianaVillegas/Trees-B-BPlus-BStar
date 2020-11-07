@@ -80,40 +80,40 @@ int main() {
     bstarIndex64.experiment("data1000.txt", "bstar1000_64.txt");
     bstarIndex64.experiment("data10000.txt", "bstar10000_64.txt");
 
-    // Index<BPlusTree, Record<100, 6>, 4> bplusIndex4(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
-    // bplusIndex4.execute();
-    // bplusIndex4.experiment("data10.txt", "bplus10_4.txt");
-    // bplusIndex4.experiment("data100.txt", "bplus100_4.txt");
-    // bplusIndex4.experiment("data1000.txt", "bplus1000_4.txt");
-    // bplusIndex4.experiment("data10000.txt", "bplus10000_4.txt");
+    Index<BPlusTree, Record<100, 6>, 4> bplusIndex4(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
+    bplusIndex4.execute();
+    bplusIndex4.experiment("data10.txt", "bplus10_4.txt");
+    bplusIndex4.experiment("data100.txt", "bplus100_4.txt");
+    bplusIndex4.experiment("data1000.txt", "bplus1000_4.txt");
+    bplusIndex4.experiment("data10000.txt", "bplus10000_4.txt");
 
-    // Index<BPlusTree, Record<100, 6>, 8> bplusIndex8(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
-    // bplusIndex8.execute();
-    // bplusIndex8.experiment("data10.txt", "bplus10_8.txt");
-    // bplusIndex8.experiment("data100.txt", "bplus100_8.txt");
-    // bplusIndex8.experiment("data1000.txt", "bplus1000_8.txt");
-    // bplusIndex8.experiment("data10000.txt", "bplus10000_8.txt");
+    Index<BPlusTree, Record<100, 6>, 8> bplusIndex8(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
+    bplusIndex8.execute();
+    bplusIndex8.experiment("data10.txt", "bplus10_8.txt");
+    bplusIndex8.experiment("data100.txt", "bplus100_8.txt");
+    bplusIndex8.experiment("data1000.txt", "bplus1000_8.txt");
+    bplusIndex8.experiment("data10000.txt", "bplus10000_8.txt");
 
-    // Index<BPlusTree, Record<100, 6>, 16> bplusIndex16(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
-    // bplusIndex16.execute();
-    // bplusIndex16.experiment("data10.txt", "bplus10_16.txt");
-    // bplusIndex16.experiment("data100.txt", "bplus100_16.txt");
-    // bplusIndex16.experiment("data1000.txt", "bplus1000_16.txt");
-    // bplusIndex16.experiment("data10000.txt", "bplus10000_16.txt");
+    Index<BPlusTree, Record<100, 6>, 16> bplusIndex16(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
+    bplusIndex16.execute();
+    bplusIndex16.experiment("data10.txt", "bplus10_16.txt");
+    bplusIndex16.experiment("data100.txt", "bplus100_16.txt");
+    bplusIndex16.experiment("data1000.txt", "bplus1000_16.txt");
+    bplusIndex16.experiment("data10000.txt", "bplus10000_16.txt");
 
-    // Index<BPlusTree, Record<100, 6>, 32> bplusIndex32(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
-    // bplusIndex32.execute();
-    // bplusIndex32.experiment("data10.txt", "bplus10_32.txt");
-    // bplusIndex32.experiment("data100.txt", "bplus100_32.txt");
-    // bplusIndex32.experiment("data1000.txt", "bplus1000_32.txt");
-    // bplusIndex32.experiment("data10000.txt", "bplus10000_32.txt");
+    Index<BPlusTree, Record<100, 6>, 32> bplusIndex32(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
+    bplusIndex32.execute();
+    bplusIndex32.experiment("data10.txt", "bplus10_32.txt");
+    bplusIndex32.experiment("data100.txt", "bplus100_32.txt");
+    bplusIndex32.experiment("data1000.txt", "bplus1000_32.txt");
+    bplusIndex32.experiment("data10000.txt", "bplus10000_32.txt");
 
-    // Index<BPlusTree, Record<100, 6>, 64> bplusIndex64(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
-    // bplusIndex64.execute();
-    // bplusIndex64.experiment("data10.txt", "bplus10_64.txt");
-    // bplusIndex64.experiment("data100.txt", "bplus100_64.txt");
-    // bplusIndex64.experiment("data1000.txt", "bplus1000_64.txt");
-    // bplusIndex64.experiment("data10000.txt", "bplus10000_64.txt");
+    Index<BPlusTree, Record<100, 6>, 64> bplusIndex64(INDEXFILE, true, "data/processed_French.txt", "data/processed_German.txt", "data/processed_Italian.txt", "data/processed_Portuguese.txt", "data/processed_Spanish.txt", "data/processed_Latin.txt");
+    bplusIndex64.execute();
+    bplusIndex64.experiment("data10.txt", "bplus10_64.txt");
+    bplusIndex64.experiment("data100.txt", "bplus100_64.txt");
+    bplusIndex64.experiment("data1000.txt", "bplus1000_64.txt");
+    bplusIndex64.experiment("data10000.txt", "bplus10000_64.txt");
 
     return 0;
 }

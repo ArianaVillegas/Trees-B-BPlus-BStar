@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-
+#include <time.h>
 template <class T, int ORDER>
 class BPlusTree;
 
@@ -109,7 +109,8 @@ class BPlusTree{
   } header;
 
     // Exection time and disk access
-    time_t t_start, t_end;
+    clock_t t_start, t_end;
+    double time_taken;
     long access;
 
   protected:
@@ -488,7 +489,7 @@ public:
             long page_id = ptr.children [pos];
             node child = readNode (page_id);
             access++;
-            return search (child, val);
+            return find (child, val);
         }
 
         if (ptr.keys[pos] == val) {
@@ -550,13 +551,13 @@ public:
 
 
     void start_measures(){
-        time(&t_start);
+        t_start = clock();
         this->access = 0;
     }
 
     std::pair<double,long> end_measures(){
-        time(&t_end);
-        double time_taken = double(t_end - t_start);
+        t_end = clock();
+        time_taken = double(t_end - t_start)/CLOCKS_PER_SEC; 
         return {time_taken, this->access};
     }
 

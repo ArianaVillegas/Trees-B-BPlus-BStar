@@ -3,7 +3,7 @@
 #include "pagemanager.h"
 #include <memory>
 #include <optional>
-
+#include <time.h>
 
 
 template <class T, int BTREE_ORDER = 3> class BTree {
@@ -62,7 +62,8 @@ template <class T, int BTREE_ORDER = 3> class BTree {
     typedef std::shared_ptr<pagemanager> pageManager;
     typedef Page BTreePage;
     // Exection time and disk access
-    time_t t_start, t_end;
+    clock_t t_start, t_end;
+    double time_taken;
     long access;
 
     pageManager pm;
@@ -258,14 +259,15 @@ public:
         } else return std::nullopt;
     }
 
+
     void start_measures(){
-        time(&t_start);
+        t_start = clock();
         this->access = 0;
     }
 
     std::pair<double,long> end_measures(){
-        time(&t_end);
-        double time_taken = double(t_end - t_start);
+        t_end = clock();
+        time_taken = double(t_end - t_start)/CLOCKS_PER_SEC; 
         return {time_taken, this->access};
     }
 
