@@ -615,16 +615,18 @@ private:
         int pos = 0;
         while(pos < ptr.count && ptr.keys[pos] < value)
             pos++;
-        if(ptr.children[ptr.count]){
-            long page_id = ptr.children[pos];
-            Node<> child = read_node(page_id);
-            return find(child,value);
-        }
         if(ptr.keys[pos] == value){
             return ptr.keys[pos];
         }else{
-            return std::nullopt;
+            if(ptr.children[ptr.count]){
+                long page_id = ptr.children[pos];
+                Node<> child = read_node(page_id);
+                return find(child,value);
+            } else {
+                return std::nullopt;
+            }
         }
+        
     }
 
 
@@ -744,10 +746,7 @@ public:
 
     iterator find_itr(const T &key) {
         iterator it(this->pm);
-        it.start_measures();
         it.find_itr(key);
-        auto measures = it.end_measures();
-        access += measures;
         return it;
     }
 
