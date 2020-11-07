@@ -611,6 +611,24 @@ private:
 
 
     template <int SIZE>
+    std::optional<T> find(Node<SIZE> &ptr, T &value) {
+        int pos = 0;
+        while(pos < ptr.count && ptr.keys[pos] < value)
+            pos++;
+        if(ptr.children[ptr.count]){
+            long page_id = ptr.children[pos];
+            Node<> child = read_node(page_id);
+            return find(child,value);
+        }
+        if(ptr.keys[pos] == value){
+            return ptr.keys[pos];
+        }else{
+            return std::nullopt;
+        }
+    }
+
+
+    template <int SIZE>
     void dfs(Node<SIZE> &ptr) {
         int i;
         for (i = 0; i < ptr.count; i++) {
@@ -743,11 +761,9 @@ public:
         return it;
     }
 
-    std::optional<T> find(const T &key) {
-        auto itr = find_itr(key);
-        if(itr != end())
-            return *itr;
-        return std::nullopt;
+    std::optional<T> find(T &key) {
+        Node<2*F_BLOCK> root = read_root();
+        return find(root, key);
     }
 
     void dfs() {
