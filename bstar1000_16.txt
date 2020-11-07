@@ -1,0 +1,1002 @@
+available:	F: disponible		 G: erhältlich	erreichbar		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 2
+moderate:	F: 	 G: ma.ssig[Adjective]		 I: 	 P: 	 S: 	 L: modestus		tiempo: 2.8e-05	accesos a disco: 3
+teacher:	F: 	 G: Lehrer (m)	Lehrerin (f)		 I: insegnante[Noun]		 P: professor[Noun]		 S: el maestro	maestra,profesora	maestro, profesor		 L: doctor		tiempo: 2.9e-05	accesos a disco: 3
+garages:	F: 	 G: 	 I: parcheggi[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+global:	F: 	 G: global	umfassend		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+organs:	F: organes[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+timothy:	F: 	 G: 	 I: 	 P: 	 S: Timoteo		 L: 	tiempo: 7.9e-05	accesos a disco: 3
+paul:	F: 	 G: Paulus		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+obligately:	F: 	 G: 	 I: 	 P: 	 S: obligatoriamente[Adverb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+know:	F: savoir (inf.)[Verb]		 G: 	 I: 	 P: 	 S: saber[Verb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+matrix:	F: 	 G: Matritze (f)		 I: matrice		 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+obstetricians:	F: 	 G: 	 I: ostetrici		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+hips:	F: flancs[Noun]		 G: Hüften, Hagebutten, [Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+little:	F: 	 G: 	 I: piccolo[Adjective]		 P: 	 S: chico[Adjective]	pequen~o[Adjective]	poco[Adjective]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+ultramodern:	F: 	 G: ultramodern[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+gendarme:	F: 	 G: 	 I: gendarme		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+jurist:	F: juriste[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+campuses:	F: 	 G: 	 I: 	 P: 	 S: recintos		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+littler:	F: 	 G: 	 I: 	 P: 	 S: menor		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+manducating:	F: 	 G: I[Adverb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+bandleader:	F: chef d'orchestre[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+afraid:	F: 	 G: aengstlich		 I: 	 P: 	 S: to be afraid - tener miedo		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+book-case:	F: 	 G: 	 I: 	 P: 	 S: 	 L: foruli		tiempo: 2.6e-05	accesos a disco: 3
+wellbeing:	F: 	 G: Wohlergehen		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+prosperin:	F: 	 G: 	 I: 	 P: 	 S: 	 L: prosperans	 -ntis[Noun]		tiempo: 2.6e-05	accesos a disco: 3
+multicolore:	F: 	 G: 	 I: 	 P: 	 S: 	 L: versicolor	 -oris (abl.: -ore	 -ori)[Adjective]		tiempo: 2.6e-05	accesos a disco: 3
+banner:	F: 	 G: 	 I: vessillo; bandiera[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+facility:	F: 	 G: Leichtigkeit[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+forgotten:	F: oublie/[Adjective]		 G: vergessen		 I: 	 P: 	 S: olvidado[Adjective]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+large:	F: 	 G: groß	groß weit umfassend	weit		 I: 	 P: 	 S: grande[Adjective]		 L: 	tiempo: 9e-06	accesos a disco: 0
+abscised:	F: 	 G: 	 I: ascisso[Adjective]		 P: 	 S: cortado por abscisio/n[Adverb]		 L: 	tiempo: 4.7e-05	accesos a disco: 3
+bee:	F: 	 G: 	 I: ape		 P: 	 S: la abeja		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+banister:	F: 	 G: 	 I: ringhiera[Noun]		 P: 	 S: 	 L: 	tiempo: 2e-05	accesos a disco: 2
+cipher:	F: 	 G: 	 I: 	 P: 	 S: la cifra		 L: 	tiempo: 6.4e-05	accesos a disco: 3
+specialized:	F: 	 G: 	 I: Specializzato		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+observations:	F: 	 G: Beobachtungen[Noun]		 I: osservazioni		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+mandatory:	F: 	 G: listen[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.8e-05	accesos a disco: 3
+attainable:	F: 	 G: 	 I: 	 P: 	 S: conseguilbe[Adjective]		 L: 	tiempo: 4.9e-05	accesos a disco: 3
+accounted:	F: 	 G: 	 I: 	 P: 	 S: contabilizo/, rindio/ cuentas[Verb]		 L: 	tiempo: 4.5e-05	accesos a disco: 3
+torture:	F: 	 G: 	 I: 	 P: 	 S: tortura		 L: tormen	 tormina		tiempo: 2e-05	accesos a disco: 2
+chalked:	F: 	 G: 	 I: scritto/marcato col gesso[Verb]	scritto/marcato col gesso[Verb]		 P: 	 S: 	 L: 	tiempo: 5.4e-05	accesos a disco: 3
+edifice:	F: 	 G: Geba.ude[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 4.5e-05	accesos a disco: 3
+zoology:	F: zoologie[Noun]		 G: Zoologie[Noun]		 I: zoologia[Noun]		 P: 	 S: la zoologi/a[Noun]		 L: 	tiempo: 4.5e-05	accesos a disco: 3
+channels:	F: 	 G: 	 I: canali[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+quaint:	F: 	 G: 	 I: antiquato		 P: 	 S: pintoresco[Adjective]		 L: 	tiempo: 2e-05	accesos a disco: 2
+coyote:	F: coyote[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+cookie:	F: 	 G: Keks (m)		 I: 	 P: 	 S: la galleta		 L: crustuli	 -orum (n.)[Noun]		tiempo: 2.3e-05	accesos a disco: 3
+brewery:	F: 	 G: Bierbrauerei (f)	Brauerei (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+incidences:	F: 	 G: 	 I: 	 P: 	 S: incidencias[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+date:	F: 	 G: ausgehen	datieren	Dattel (f)	Datum (n)	Verabredung (f)		 I: 	 P: 	 S: Fecha	la fecha		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+unarticulated:	F: 	 G: unartikuliert[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+facile:	F: facile[Adjective]		 G: 	 I: facile[Adjective]	abile[Adjective]		 P: 	 S: vivo[Adjective]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+kicked:	F: frappe/ du pied[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.9e-05	accesos a disco: 3
+grave:	F: 	 G: 	 I: tomba[Noun]		 P: 	 S: grave[Noun]		 L: 	tiempo: 3.9e-05	accesos a disco: 3
+careers:	F: 	 G: 	 I: 	 P: 	 S: profesiones		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+contes:	F: 	 G: 	 I: 	 P: 	 S: 	 L: certamen[Noun]	certatio[Noun]	contendere[Verb]	contentio[Noun]		tiempo: 2.3e-05	accesos a disco: 3
+implementation:	F: 	 G: 	 I: 	 P: 	 S: implantación		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+actuarial:	F: 	 G: 	 I: attuariale		 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+password:	F: mot de passe[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+dirty:	F: 	 G: 	 I: 	 P: 	 S: ensuciar[Verb]	sucio	verde[Adjective]		 L: 	tiempo: 3e-05	accesos a disco: 3
+vagabond:	F: 	 G: 	 I: vagabondo - nomade - girovago[Noun]		 P: 	 S: 	 L: 	tiempo: 0.000171	accesos a disco: 3
+telex:	F: 	 G: Telex (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+dripping:	F: 	 G: Bratenfett (n)	tröpfeld		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+jailer:	F: geo^lier[Noun]		 G: 	 I: carceriere[Noun]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+reddish:	F: 	 G: 	 I: 	 P: 	 S: 	 L: puniceus		tiempo: 2.5e-05	accesos a disco: 3
+liquor:	F: 	 G: Spirituosen (f)		 I: 	 P: 	 S: el licor		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+baleen:	F: baleine		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+facing:	F: face a, en face de[Preposition]		 G: 	 I: che sta di fronte		 P: 	 S: paramento[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+port:	F: 	 G: Portwein (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+radiochemist:	F: 	 G: 	 I: 	 P: 	 S: radioquímico[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+yap:	F: japper[Verb]		 G: 	 I: guaire[Verb]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+japanese:	F: 	 G: Japaner (m)	japanisch		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+electricity:	F: 	 G: Elektrizität (f)		 I: 	 P: 	 S: electricidad[Noun]		 L: 	tiempo: 7e-05	accesos a disco: 2
+rear:	F: 	 G: bäumen	hintere	Rückseite (f)	Schuß (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 5.4e-05	accesos a disco: 3
+macrodynamic:	F: 	 G: 	 I: macrodinamica[Noun]		 P: 	 S: macrodinamica		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+shampoo:	F: shampooing		 G: haarewaschen	Schampoon (n)	schampunieren	waschen		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+doctrinal:	F: 	 G: 	 I: 	 P: 	 S: doctrinal[Adjective]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+jackdaw:	F: choucas (m)[Noun]		 G: 	 I: 	 P: 	 S: grajilla, grajo		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+desserts:	F: 	 G: 	 I: 	 P: 	 S: postres[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+carbonless:	F: sans carbone[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2e-05	accesos a disco: 2
+cadastral:	F: 	 G: 	 I: catastale[Adjective]		 P: cadastral		 S: catastral[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+jovial:	F: jovial(e)[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+facades:	F: fac,ades[Noun]		 G: 	 I: facciate[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+aspen:	F: abedul		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+plaid:	F: 	 G: das Karomuster[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2e-05	accesos a disco: 2
+magnetization:	F: 	 G: 	 I: magnetizzazione[Noun]		 P: 	 S: 	 L: 	tiempo: 5.5e-05	accesos a disco: 3
+crabbed:	F: maussade[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+tingle:	F: 	 G: 	 I: 	 P: 	 S: erizar (to tingle)		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+kelp:	F: 	 G: Kelp[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+chronometric:	F: 	 G: 	 I: 	 P: 	 S: cronome/trico (a)[Adjective]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+elaboration:	F: e/laboration (f)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+periodical:	F: 	 G: Zeitschrift (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+kicks:	F: s'amuser		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+legalist:	F: 	 G: 	 I: 	 P: 	 S: el legalista[Noun]		 L: 	tiempo: 1.9e-05	accesos a disco: 2
+polarizes:	F: 	 G: 	 I: 	 P: 	 S: polariza		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+happens:	F: 	 G: geschieht, passiert[Conjunction]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+archdiocese:	F: 	 G: 	 I: arcidiocesi[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+kitten:	F: chaton[Noun]		 G: Kätzchen (n)		 I: 	 P: 	 S: el gatito		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+radiobiology:	F: 	 G: Strahlenbiologie[Noun]		 I: 	 P: 	 S: radiobiologia[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tormenters:	F: 	 G: 	 I: 	 P: 	 S: atormentadores		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+obedience:	F: obe/issance[Noun]		 G: Gehorsam		 I: ubbidienza		 P: obediência[Noun]		 S: obediencia		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+crabbed:	F: maussade[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+submariner:	F: 	 G: Unterseebo.otemann[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+buffer:	F: 	 G: 	 I: respingente, memoria tampone		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+contentions:	F: disputes[Noun]	e/mulations[Noun]	luttes[Noun]		 G: 	 I: 	 P: 	 S: contenciones[Noun]	contiendas[Noun]	disputas[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+calcified:	F: 	 G: 	 I: calcificato[Adjective]		 P: 	 S: calcificado		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+crown:	F: 	 G: 	 I: 	 P: 	 S: corona[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+sanitary:	F: 	 G: gesundheits	hygienisch	sanitär		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+labeled:	F: 	 G: beschriften		 I: etichettato[Adjective]		 P: etiquetado[Adjective]		 S: etiquetado		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+cursive:	F: 	 G: 	 I: 	 P: 	 S: cursiva		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+defensibly:	F: 	 G: 	 I: 	 P: 	 S: 	 L: defensabiliter		tiempo: 2.4e-05	accesos a disco: 3
+gendarmerie:	F: 	 G: 	 I: gendarmeria		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+helicopters:	F: 	 G: 	 I: 	 P: 	 S: Helicópteros[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+	tiempo: 2.2e-05	accesos a disco: 3
+orchestrated:	F: orchestré[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+advertisemen:	F: 	 G: 	 I: 	 P: 	 S: 	 L: proscriptio	 -onis (f.)[Noun]		tiempo: 2.6e-05	accesos a disco: 3
+bangles:	F: 	 G: 	 I: braccialetti[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+padlock:	F: cadenas[Noun]	cadenasser[Verb]		 G: 	 I: lucchetto		 P: 	 S: 	 L: 	tiempo: 3.2e-05	accesos a disco: 3
+jailer:	F: geo^lier[Noun]		 G: 	 I: carceriere[Noun]		 P: 	 S: 	 L: 	tiempo: 4.5e-05	accesos a disco: 3
+dorm:	F: 	 G: 	 I: dormitorio[Noun]		 P: 	 S: la residencia universitaria[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+quadruplicate:	F: 	 G: 	 I: quadruplicare		 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+blameworthy:	F: 	 G: 	 I: 	 P: 	 S: 	 L: vituperabilis		tiempo: 9.6e-05	accesos a disco: 3
+sales:	F: les ventes[Noun]		 G: 	 I: 	 P: vendas[Noun]		 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+	tiempo: 2.4e-05	accesos a disco: 3
+salivated:	F:  a fait saliver[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+damask:	F: 	 G: 	 I: DAMASCO[Noun]		 P: damasco[Noun]		 S: damasco[Noun]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+aberrancy:	F: 	 G: Abweichung, Verirrung[Noun]		 I: aberrazione		 P: aberração[Adjective]		 S: aberraci/on	error		 L: 	tiempo: 5.3e-05	accesos a disco: 3
+plates:	F: 	 G: 	 I: 	 P: 	 S: La/minas[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+harmless:	F: 	 G: 	 I: 	 P: 	 S: Inofensivo[Noun]		 L: 	tiempo: 2e-05	accesos a disco: 2
+kiloliter:	F: un kilolitre (abbr. kl)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+torments:	F: 	 G: 	 I: 	 P: 	 S: tormentos		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+trial:	F: 	 G: Gerichtsverhandlung (f)	Probe (f)	Prozeß (m)	Versuch (m)		 I: 	 P: 	 S: juicio		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tactlessly:	F: 	 G: 	 I: 	 P: 	 S: torpemente,descortezmente[Adverb]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+plaid:	F: 	 G: das Karomuster[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 2
+	tiempo: 2.4e-05	accesos a disco: 3
+officeholders:	F: 	 G: 	 I: ufficiali, funzionari		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+thoughtful:	F: pensif, meditatif, reveur[Adjective]	serieux, reflechi, prudent[Adjective]		 G: 	 I: 	 P: 	 S: atento		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+inching:	F: 	 G: 	 I: 	 P: 	 S: despacio[Adverb]		 L: 	tiempo: 3.1e-05	accesos a disco: 3
+doable:	F: 	 G: machbar[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.9e-05	accesos a disco: 3
+harmed:	F: 	 G: 	 I: 	 P: 	 S: Dañado[Verb]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+gypsies:	F: 	 G: 	 I: 	 P: 	 S: gitanos/as[Noun]	gitanos/as[Noun]	gitanos/as[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+zebras:	F: 	 G: Zebras		 I: zebre		 P: 	 S: cebras[Noun]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+calamite:	F: 	 G: 	 I: vegetale fossile		 P: Calamidade		 S: Calamites[Noun]		 L: 	tiempo: 6.7e-05	accesos a disco: 3
+palpable:	F: évident(e)[Adjective]	manifeste [Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+pity:	F: 	 G: erbarmen	Mitleid (n)	Schade (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+incessant:	F: 	 G: 	 I: 	 P: 	 S: incesante[Adjective]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+abb:	F: 	 G: 	 I: 	 P: 	 S: 	 L: abbas	 gen. abbatis[Noun]		tiempo: 2.3e-05	accesos a disco: 3
+objectively:	F: 	 G: objektiv[Adverb]		 I: 	 P: 	 S: objetivamente[Adverb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+elaborate:	F: e/laborer[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+scrambled:	F: 	 G: klettete	verschlüsselt		 I: 	 P: 	 S: revuelto		 L: 	tiempo: 7.4e-05	accesos a disco: 3
+mulberry:	F: 	 G: 	 I: 	 P: 	 S: la mora[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+accomplishers:	F: 	 G: 	 I: 	 P: 	 S: terminadores		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+rendered:	F: 	 G: 	 I: 	 P: 	 S: 	 L: effectus		tiempo: 2.7e-05	accesos a disco: 3
+treasures:	F: 	 G: 	 I: 	 P: 	 S: tesoros		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+chiropractor:	F: 	 G: 	 I: 	 P: 	 S: me/dico quiropra/ctico 		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+exhibitionist:	F: 	 G: 	 I: 	 P: 	 S: exhibicionista		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+habitableness:	F: 	 G: 	 I: 	 P: habitabilidade[Noun]	habitabilidade[Noun]		 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+longing:	F: 	 G: sehnsüchtig	Sehnsucht (f)	Verlangen (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+gardener:	F: 	 G: 	 I: 	 P: jardineiro[Noun]		 S: el jardinero		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+identically:	F: 	 G: 	 I: 	 P: 	 S: idénticamente[Adverb]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+ultrasonic:	F: 	 G: Ultraschall[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+expression:	F: 	 G: Ausdruck (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+zapping:	F: 	 G: 	 I: 	 P: 	 S: zapeo[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+calaboose:	F: 	 G: 	 I: prigione[Noun]		 P: 	 S: calabozo[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+vibration:	F: 	 G: Vibration[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+gendered:	F: 	 G: 	 I: sessuato		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+theft:	F: 	 G: 	 I: 	 P: 	 S: el robo	hurto		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+tomes:	F: 	 G: 	 I: 	 P: 	 S: libros		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+leafy:	F: 	 G: bla.ttrig[Adjective]		 I: 	 P: 	 S: 	 L: foliatus		tiempo: 2.5e-05	accesos a disco: 3
+dangerously:	F: 	 G: gefaehrlich[Adverb]		 I: pericolosamente		 P: 	 S: peligrosamente[Adverb]		 L: 	tiempo: 2e-05	accesos a disco: 2
+generously:	F: 	 G: grosszu.gig[Adverb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+ombudsman:	F: 	 G: Ombudsman[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+weirdies:	F: excentriques[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+penis:	F: 	 G: Penis (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+duke:	F: 	 G: 	 I: duca		 P: 	 S: 	 L: dux		tiempo: 4.2e-05	accesos a disco: 3
+fertile:	F: 	 G: 	 I: fertile		 P: 	 S: fe/rtil[Adjective]		 L: 	tiempo: 4.3e-05	accesos a disco: 3
+abreaction:	F: 	 G: Abreaktion		 I: abreazione[Noun]		 P: 	 S: abreaccio/n		 L: 	tiempo: 5.9e-05	accesos a disco: 3
+myeloid:	F: 	 G: 	 I: mieloide		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+wafer:	F: 	 G: Waffel, Hostie[Noun]		 I: cialda[Noun]		 P: 	 S: el barquillo[Noun]	galleta[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+maculate:	F: maculer[Verb]		 G: 	 I: maculare		 P: 	 S: manchar[Verb]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+exhibitionism:	F: 	 G: 	 I: 	 P: 	 S: exhibicionismo		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+branchial:	F: 	 G: 	 I: 	 P: 	 S: branquial[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+gravestone:	F: 	 G: 	 I: 	 P: 	 S: lapida sepulcral[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+satisfy:	F: 	 G: befriedigen	genügen	zufriedenstellen		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+attempt:	F: 	 G: 	 I: 	 P: 	 S: intento		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+nitrates:	F: nitrates[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.9e-05	accesos a disco: 2
+landowner:	F: 	 G: 	 I: proprietario[Noun]		 P: 	 S: 	 L: 	tiempo: 5.9e-05	accesos a disco: 3
+paganism:	F: 	 G: 	 I: paganesimo		 P: 	 S: paganismo[Noun]		 L: 	tiempo: 5.6e-05	accesos a disco: 3
+incitation:	F: 	 G: 	 I: 	 P: 	 S: incitación[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+airbag:	F: 	 G: 	 I: airbag[Noun]		 P: 	 S: 	 L: 	tiempo: 3.5e-05	accesos a disco: 2
+newsstand:	F: 	 G: Zeitungshändler (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+percent:	F: 	 G: prozent		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+baklava:	F: 	 G: Baklava		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+gratuities:	F: 	 G: 	 I: 	 P: 	 S: propinas[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+abjure:	F: abjurer[Verb]		 G: abschwo.ren	entsagen, wiederrufen, zuru.cknehmen[Verb]		 I: abiurare		 P: abjurar, renunciar,apostatar[Verb]		 S: renunciar		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+anchorage:	F: 	 G: Ankerplatz[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+policeman:	F: agent de police[Noun]	agent[Noun]	policier[Noun]		 G: Polizist (m)		 I: 	 P: 	 S: polici/a		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+negotiate:	F: 	 G: 	 I: negoziare[Verb]		 P: 	 S: negociar		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+ejaculating:	F: e/jaculant[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+capricorn:	F: 	 G: Steinbock (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+flights:	F: 	 G: 	 I: 	 P: 	 S: vuelos[Noun]		 L: 	tiempo: 2e-05	accesos a disco: 2
+salmon:	F: saumon[Noun]		 G: Lachs (m)	Salm (m)		 I: salmone[Noun]		 P: salma~o[Noun]		 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+spells:	F: 	 G: 	 I: 	 P: 	 S: los hechizos		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+libation:	F: 	 G: 	 I: 	 P: 	 S: 	 L: libatio		tiempo: 2.4e-05	accesos a disco: 3
+absents:	F: 	 G: 	 I: assenti		 P: 	 S: ausentes		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+knucklebone:	F: (une) phalange[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+stained:	F: 	 G: 	 I: 	 P: manchado[Adjective]		 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+product:	F: 	 G: Produkt (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tricky:	F: 	 G: heikel	knifflig	kompliziert	trickreich	verzwickt		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+angrily:	F: 	 G: aergerlich		 I: 	 P: 	 S: 	 L: 	tiempo: 1.8e-05	accesos a disco: 2
+habilitations:	F: 	 G: 	 I: 	 P: habilitac,o~es[Noun]	habilitac,o~es[Noun]		 S: habilitaciones		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+abomasal:	F: 	 G: 	 I: abomasale[Adjective]		 P: 	 S: del cuarto estómago[Adjective]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+taeniasis:	F: 	 G: 	 I: 	 P: 	 S: infecci'on con tenia (gusano plano)[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+needless:	F: 	 G: unno.tig[Adjective]		 I: inutile[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+eccentrics:	F: 	 G: 	 I: eccentricita'[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+alive:	F: 	 G: 	 I: vivo[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+gaining:	F: gagnant[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+adenomatous:	F: 	 G: 	 I: 	 P: 	 S: Adenomatoso		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+tab:	F: happy[Adjective]	sortir[Verb]		 G: 	 I: etichetta	tabulazione		 P: lingueta, aba; (label) etiquea		 S: teddy		 L: 	tiempo: 7.6e-05	accesos a disco: 3
+moneylenders:	F: 	 G: Geldverleiher		 I: 	 P: 	 S: 	 L: 	tiempo: 3.6e-05	accesos a disco: 3
+hilly:	F: 	 G: 	 I: 	 P: 	 S: 	 L: tumulosus		tiempo: 4.5e-05	accesos a disco: 3
+translation:	F: traduction[Noun]		 G: Übersetzung (f)	Übertragung (f)		 I: 	 P: 	 S: traduccio/n		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+moon:	F: lune[Noun]		 G: 	 I: luna		 P: 	 S: la luna		 L: luna	lunae[Noun]		tiempo: 3.3e-05	accesos a disco: 3
+preamble:	F: 	 G: 	 I: 	 P: 	 S: prea/mbulo[Noun]		 L: exordia[Noun]		tiempo: 5.5e-05	accesos a disco: 2
+stubble:	F: 	 G: 	 I: 	 P: 	 S: rastrojo[Noun]		 L: 	tiempo: 3e-05	accesos a disco: 3
+smuggling:	F: 	 G: 	 I: contrabbando[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+cave:	F: 	 G: 	 I: 	 P: 	 S: cueva	la cueva		 L: 	tiempo: 1.9e-05	accesos a disco: 2
+cholera:	F: 	 G: Cholera (f)		 I: 	 P: 	 S: co/lera ( disease)		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+soft:	F: 	 G: leise	sacht	weich	weichlich		 I: 	 P: 	 S: blando		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+incidentally:	F: 	 G: 	 I: 	 P: 	 S: incidentalmente[Adjective]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ejection:	F: e/jection (f)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+homework:	F: 	 G: 	 I: Compiti		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+shah:	F: schah[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+can't:	F: 	 G: 	 I: 	 P: 	 S: no puede		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+meander:	F: me/andre[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+rhetorical:	F: 	 G: 	 I: 	 P: 	 S: 	 L: rhetoricus		tiempo: 2.6e-05	accesos a disco: 3
+loath:	F: 	 G: 	 I: contrario		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+aquarium:	F: 	 G: 	 I: 	 P: 	 S: el acuarium		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+ring:	F: 	 G: Ring (m)	Schall (m)	schellen	tönen		 I: 	 P: 	 S: el anillo		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+moans:	F: gémissements		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+bounty:	F: 	 G: 	 I: 	 P: 	 S: 	 L: almitas	largissimum	largitio		tiempo: 2.6e-05	accesos a disco: 3
+nails:	F: 	 G: Na.gel[Noun]		 I: chiodi	unghie (fingers)		 P: pregos[Noun]		 S: clavos[Noun]	un~as[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+timidness:	F: 	 G: 	 I: 	 P: 	 S: timidez		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+bed:	F: lit[Noun]		 G: Bett (n)	Lager (n)	Unterlage (n)		 I: letto		 P: 	 S: la cama		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+everlasting:	F: permanent[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+generalizational:	F: 	 G: 	 I: generalizzazionale		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+maddened:	F: rendu fou[Adjective]		 G: 	 I: esasperato[Verb]		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+precociously:	F: 	 G: 	 I: precocemente[Adverb]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+	tiempo: 2.4e-05	accesos a disco: 3
+hedge:	F: haie		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 3
+loud:	F: 	 G: laut[Adverb]		 I: 	 P: 	 S: ruidoso		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+standby:	F: 	 G: Reserve (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+pushing:	F: poussé[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+heard:	F: 	 G: geho.rt[Conjunction]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 3
+pessimist:	F: 	 G: Pessimist (m)	Schwarzseher (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+sunbeam:	F: 	 G: 	 I: raggio di sole[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+charmingly:	F: 	 G: 	 I: affascinantamente[Adverb]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+alienate:	F: 	 G: 	 I: alienare[Verb]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+trembling:	F: 	 G: 	 I: 	 P: 	 S: tempando		 L: tremor		tiempo: 2.6e-05	accesos a disco: 3
+pigeonhole:	F: pigeonnier[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+motorcycle:	F: 	 G: 	 I: Motocicletta[Noun]	moto[Noun]		 P: 	 S: la motocicleta		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+comrades:	F: amis[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+authority:	F: 	 G: 	 I: 	 P: 	 S: 	 L: auctoritas	ditio		tiempo: 2.6e-05	accesos a disco: 3
+agitated:	F: 	 G: 	 I: 	 P: 	 S: agitado[Adjective]		 L: 	tiempo: 5.5e-05	accesos a disco: 3
+internalizes:	F: 	 G: 	 I: 	 P: 	 S: internaliza[Verb]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+chiropractors:	F: 	 G: 	 I: 	 P: 	 S: me/dicos quiropra/cticos		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+instructed:	F: 	 G: 	 I: 	 P: 	 S: 	 L: aspersus		tiempo: 2.5e-05	accesos a disco: 3
+furious:	F: 	 G: 	 I: 	 P: 	 S: 	 L: saevus		tiempo: 4.5e-05	accesos a disco: 3
+priest:	F: 	 G: Pfarrer (m)	Priester (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+widening:	F: 	 G: 	 I: allargamento[Noun]		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+polish:	F: polonais[Adjective]	Polonais[Noun]		 G: polieren	Politur (f)	polnisch	putzen	Schliff (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tensorial:	F: 	 G: 	 I: tensoriale[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tarnish:	F: 	 G: 	 I: 	 P: 	 S: manchar ( to stain)		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+scrambled:	F: 	 G: klettete	verschlüsselt		 I: 	 P: 	 S: revuelto		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+niobium:	F: niobium (m)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 4.8e-05	accesos a disco: 3
+banjoes:	F: 	 G: Banjo, die		 I: 	 P: 	 S: 	 L: 	tiempo: 4e-05	accesos a disco: 3
+edge:	F: 	 G: einfassen	Kante (f)	Rand (m)	Schneide (f)		 I: filo(noun -as in knife edge), orlo(noun - as in brink); dar il filo(verb - as sharpen), orlare (verb - as in border) 		 P: 	 S: orilla		 L: 	tiempo: 4e-05	accesos a disco: 3
+obliterate:	F: 	 G: 	 I: cancellare		 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+baggy:	F: 	 G: 	 I: 	 P: 	 S: holgado[Adjective]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+mutilate:	F: 	 G: 	 I: mutilare		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+vacuous:	F: 	 G: 	 I: vuoto - vacuo - insignificante[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+abater:	F: 	 G: Verminderer[Noun]		 I: riducente		 P: abater	abater		 S: rebajador, mitigador[Noun]		 L: 	tiempo: 1.7e-05	accesos a disco: 2
+to:	F: 	 G: an	auf	bei	nach	zu		 I: 	 P: 	 S: my love	para		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+get:	F: 	 G: ankommen	bekommen	kommen	werden		 I: andare (with particle)	diventare (with adj.)	ottenere	ottenere, ricevere (with noun)		 P: 	 S: obtener		 L: 	tiempo: 6.4e-05	accesos a disco: 3
+plateaus:	F: 	 G: 	 I: 	 P: 	 S: plataformas[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+tactlessly:	F: 	 G: 	 I: 	 P: 	 S: torpemente,descortezmente[Adverb]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+gave:	F: 	 G: gab		 I: dato		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+chewing:	F: 	 G: 	 I: 	 P: 	 S: masticando		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+spine:	F: 	 G: Rückgrat (n)	Wirbelsäule (f)		 I: spina dorsale[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+wack:	F: 	 G: 	 I: 	 P: 	 S: dar un buen golpe a[Verb]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+mountainous:	F: 	 G: gebirgig		 I: 	 P: 	 S: 	 L: iugosus		tiempo: 2.4e-05	accesos a disco: 3
+test:	F: 	 G: abfragen		 I: 	 P: prova[Noun]		 S: el examen	exa/men		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+bra:	F: 	 G: BH (m)		 I: 	 P: 	 S: sosten	sujetador[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+calcifuge:	F: 	 G: 	 I: calcifugo[Adjective]		 P: 	 S: calci/fugo[Adjective]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+colors:	F: 	 G: 	 I: 	 P: 	 S: los colores		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+teeter:	F: 	 G: 	 I: 	 P: 	 S: tambalear 		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+	tiempo: 2.3e-05	accesos a disco: 3
+courtliness:	F: e/le/gance[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+barony:	F: 	 G: 	 I: baronia[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+backwater:	F: 	 G: Hinterland, das[Noun]		 I: acqua stagnante[Noun]		 P: remanso, a/gua parada[Noun]		 S: remanso[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+economics:	F: econom'ica[Noun]		 G: Volkswirtschaftslehre (f)	Wirtschaftswissenschaft (f)		 I: 	 P: 	 S: Economica[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+whirlpool:	F: 	 G: 	 I: 	 P: 	 S: 	 L: charybdis	gurges		tiempo: 4.2e-05	accesos a disco: 3
+balmily:	F: 	 G:  		 I: 	 P: 	 S: 	 L: 	tiempo: 6.2e-05	accesos a disco: 3
+absurdities:	F: absurdite/s[Noun]		 G: Absurdita.ten[Noun]		 I: assurdita\[Noun]		 P: 	 S: disparates (plural)[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+catching:	F: 	 G: 	 I: (participio pres.) di afferrare, prendere, sorprendere, attirare[Verb]	seducente		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+mayonnaise:	F: 	 G: 	 I: maionese		 P: 	 S: la mayonesa		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+known:	F: connu (past.part.)[Verb]		 G: 	 I: 	 P: 	 S: conocido[Adjective]		 L: 	tiempo: 2.4e-05	accesos a disco: 2
+abstractable:	F: 	 G: 	 I: 	 P: 	 S: abstraíble[Adjective]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+bright:	F: 	 G: 	 I: 	 P: 	 S: 	 L: luminosus		tiempo: 4.6e-05	accesos a disco: 3
+tornados:	F: 	 G: 	 I: 	 P: 	 S: tornados		 L: 	tiempo: 5.4e-05	accesos a disco: 3
+technologic:	F: 	 G: 	 I: 	 P: 	 S: tecnolo/gico		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+africa:	F: 	 G: Afrika		 I: 	 P: 	 S: 	 L: 	tiempo: 2e-05	accesos a disco: 2
+dishonorably:	F: 	 G: 	 I: 	 P: 	 S: 	 L: inhoneste		tiempo: 3e-05	accesos a disco: 3
+reverend:	F: 	 G: 	 I: 	 P: 	 S: 	 L: verendus		tiempo: 2.6e-05	accesos a disco: 3
+unassertive:	F: 	 G: unbestimmt, vage[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+pacifistically:	F: 	 G: pazifistisch		 I: 	 P: 	 S: paci/ficamente[Adverb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+hoarse:	F: 	 G: 	 I: rauco[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ultimatum:	F: 	 G: Ultimatum[Noun]		 I: 	 P: 	 S: ultimatum[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+guest:	F: 	 G: Gast (m)		 I: invitato[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+fishmongers:	F: 	 G: 	 I: pescivendoli[Noun]		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+scallion:	F: 	 G: 	 I: scalogno[Noun]		 P: 	 S: 	 L: 	tiempo: 4.8e-05	accesos a disco: 3
+floppy:	F: disquette[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+xylose:	F: xylose[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+chimps:	F: 	 G: 	 I: 	 P: 	 S: chimpance/s		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+unavailability:	F: 	 G: Unverfu.gbarkeit[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+	tiempo: 2.2e-05	accesos a disco: 3
+continenc:	F: 	 G: 	 I: 	 P: 	 S: 	 L: continentia[Noun]	temperantia[Noun]		tiempo: 2.2e-05	accesos a disco: 3
+offbeat:	F: 	 G: 	 I: insolito		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+wildlife:	F: 	 G: Natur (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+oats:	F: 	 G: Hafer[Noun]		 I: avena[Noun]		 P: 	 S: avena		 L: 	tiempo: 4.1e-05	accesos a disco: 3
+perpetrate:	F: 	 G: 	 I: perpetrare[Verb]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+halibuts:	F: 	 G: Heilbutte (pl)[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+job:	F: boulot (colloq.)[Noun]	emploi (m)[Noun]	turbin (slang)[Noun]		 G: 	 I: occupazione; lavoro; impiego[Noun]		 P: 	 S: trabajo[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+pacts:	F: pcates, contrats[Noun]		 G: 	 I: patti[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+amuse:	F: 	 G: amüsieren	amuesieren	belustigen	vergnügen	zerstreuen		 I: 	 P: 	 S: divertir		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+salmons:	F: saumons[Noun]		 G: 	 I: salmoni[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+transmission:	F: 	 G: Übertragung (f)	Kraftübertragung (f)	Sendung (f)		 I: 	 P: 	 S: transmisio/n		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+obsessively:	F: 	 G: 	 I: ossessivamente		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+always:	F: 	 G: immer		 I: 	 P: 	 S: siempre		 L: juge	usquequaque		tiempo: 2.5e-05	accesos a disco: 3
+insolently:	F: 	 G: 	 I: 	 P: 	 S: 	 L: contumeliose		tiempo: 2e-05	accesos a disco: 2
+oppositel:	F: 	 G: 	 I: 	 P: 	 S: 	 L: adversum[Adverb]		tiempo: 2.5e-05	accesos a disco: 3
+zip:	F: 	 G: Surren		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+omelette:	F: 	 G: Omelette[Noun]		 I: 	 P: 	 S: la tortilla		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+dashboard:	F: 	 G: Armaturenbrett, neutr.[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+torrent:	F: 	 G: 	 I: 	 P: 	 S: torrente		 L: 	tiempo: 4.1e-05	accesos a disco: 3
+haggard:	F: 	 G: ausgezehrt[Adjective]		 I: 	 P: 	 S: ojeroso[Adjective]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+electricians:	F: 	 G: Elektriker[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tobacconist:	F: 	 G: 	 I: 	 P: 	 S: tabaconero		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+presumption:	F: 	 G: 	 I: 	 P: 	 S: 	 L: arrogantia		tiempo: 2.7e-05	accesos a disco: 3
+goddesses:	F: de/esses		 G: 	 I: dee[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+sexist:	F: 	 G: 	 I: sessista		 P: 	 S: 	 L: 	tiempo: 2e-05	accesos a disco: 2
+accumulators:	F: 	 G: 	 I: accumulatori		 P: 	 S: acumuladores[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+airplane:	F: 	 G: Flugzeug	Flugzeug (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 1.9e-05	accesos a disco: 2
+vacuous:	F: 	 G: 	 I: vuoto - vacuo - insignificante[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+horrific:	F: 	 G: 	 I: raccapricciante		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+bored:	F: 	 G: langweilte		 I: 	 P: 	 S: aburrido		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+militarisms:	F: 	 G: Militarismen[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+hardcopy:	F: 	 G: der Ausdruck[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+symbols:	F: 	 G: 	 I: 	 P: simbolos[Noun]		 S: 	 L: 	tiempo: 5.3e-05	accesos a disco: 3
+teases:	F: excite[Verb]	taquine[Verb]	taquins[Noun]		 G: 	 I: 	 P: 	 S: embroma[Verb]	importuna[Verb]	molesta[Verb]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+tonight:	F: 	 G: 	 I: 	 P: 	 S: e/sta noche		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+commensurable:	F: 	 G: 	 I: commensorabile[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+enlargement:	F: 	 G: 	 I: ingrandimento		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+eel:	F: 	 G: Aal (m)		 I: anguilla[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+mandragora:	F: 	 G: baby[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+lactate:	F: 	 G: 	 I: 	 P: 	 S: lactato	lactar[Verb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+errin:	F: 	 G: 	 I: 	 P: 	 S: 	 L: errans[Noun]		tiempo: 2.4e-05	accesos a disco: 3
+retire:	F: 	 G: ausscheiden	pensionieren		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+thumbtack:	F: 	 G: 	 I: 	 P: 	 S: la chinche		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+questioning:	F: 	 G: Befragung (f)	fragend		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+mandatory:	F: 	 G: listen[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 4.2e-05	accesos a disco: 3
+anion:	F: 	 G: 	 I: 	 P: 	 S: anio/n[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+translator:	F: traducteur[Noun]		 G: Übersetzer (m)		 I: 	 P: 	 S: traductor		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+plasm:	F: 	 G: 	 I: 	 P: 	 S: plasma[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+occurs:	F: 	 G: 	 I: succede		 P: 	 S: ocurre		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+chicken:	F: 	 G: Huhn (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+donor:	F: 	 G: 	 I: donatore[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+cameleer:	F: 	 G: 	 I: cammelliere[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+pajamas:	F: pyjama[Noun]		 G: 	 I: 	 P: 	 S: piyamas[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+pageant:	F: spectacle[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+catch:	F: 	 G: 	 I: 	 P: 	 S: coger		 L: 	tiempo: 2.2e-05	accesos a disco: 3
+spray:	F: 	 G: Gischt (f)	sprühen	Spritze (f)	spritzen		 I: spruzzare[Verb]		 P: 	 S: 	 L: 	tiempo: 4.6e-05	accesos a disco: 3
+macaw:	F: l'ara[Noun]		 G: 	 I: 	 P: arara[Noun]		 S: lapa		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+obfuscate:	F: 	 G: 	 I: offuscare		 P: ofuscar[Verb]		 S: ofuscar		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+damage:	F: 	 G: 	 I: danneggiare[Verb]	danno[Noun]		 P: 	 S: 	 L: 	tiempo: 6.5e-05	accesos a disco: 3
+upturn:	F: 	 G: umdrehen		 I: 	 P: 	 S: 	 L: 	tiempo: 4.4e-05	accesos a disco: 3
+standards:	F: 	 G: 	 I: 	 P: padroes (tilda on o)[Noun]		 S: 	 L: 	tiempo: 4e-05	accesos a disco: 2
+myocardial:	F: 	 G: 	 I: miocardico		 P: 	 S: 	 L: 	tiempo: 4.1e-05	accesos a disco: 3
+hamburgers:	F: 	 G: die Hamburger[Noun]		 I: 	 P: 	 S: hamburgesas		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+flagellants:	F: 	 G: 	 I: 	 P: 	 S: flagelantes[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+basalt:	F: 	 G: 	 I: basalto[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+beaver:	F: 	 G: 	 I: 	 P: 	 S: 	 L: castor		tiempo: 2.5e-05	accesos a disco: 3
+some:	F: 	 G: einige	einige manche	manche		 I: 	 P: 	 S: 	 L: aliqua	aliqui	alquod		tiempo: 2.7e-05	accesos a disco: 3
+cancerous:	F: 	 G: 	 I: 	 P: 	 S: canceroso		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+abandonment:	F: abandon[Noun]	abandonnement[Noun]		 G: Preisgabe, Aufgabe, Hingabe	Verlassenheit		 I: abbandono		 P: abandonamento	abandono, disamparo[Noun]	renu/cia[Noun]	abandono[Noun]		 S: abandono	desamparo, deserción		 L: destitutiones[Noun]		tiempo: 2.5e-05	accesos a disco: 3
+caboose:	F: caboose[Noun]		 G: 	 I: cambusa[Noun]		 P: cozinha de bordo[Noun]		 S: fogón; cocina[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+oceanic:	F: 	 G: 	 I: oceanico		 P: 	 S: oceanico		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+paginate:	F: 	 G: 	 I: impaginare		 P: 	 S: 	 L: 	tiempo: 6.4e-05	accesos a disco: 3
+kidney:	F: le rein[Noun]		 G: Niere[Noun]		 I: rene		 P: 	 S: 	 L: 	tiempo: 5.3e-05	accesos a disco: 3
+rain:	F: 	 G: Regen (m)	regnen		 I: 	 P: 	 S: la lluvia	llover		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+oceans:	F: 	 G: Ozeane[Noun]		 I: oceani		 P: 	 S: oceanos		 L: 	tiempo: 3.9e-05	accesos a disco: 3
+honest:	F: 	 G: 	 I: 	 P: 	 S: honrado		 L: 	tiempo: 5.2e-05	accesos a disco: 3
+eldest:	F: 	 G: a.lteste[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.3e-05	accesos a disco: 3
+widespread:	F: 	 G: weitverbreitet[Adjective]		 I: diffuso[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+mask:	F: 	 G: Maske (f)	maskieren		 I: 	 P: 	 S: ma/scara[Noun]		 L: 	tiempo: 1.6e-05	accesos a disco: 1
+gabardine:	F: gabardine[Noun]		 G: Gabardine (f)		 I: gabardina		 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+stamp:	F: 	 G: abstempeln	Briefmarke (f)	Gepräge (f)	prägen	stampfen		 I: 	 P: 	 S: el sello[Noun]		 L: 	tiempo: 4e-05	accesos a disco: 3
+mineralogist:	F: 	 G: Mineraloge		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+quotes:	F: 	 G: 	 I: citazioni		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 2
+d%27etat:	F: 	 G: des Staats[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.3e-05	accesos a disco: 3
+actualized:	F: 	 G: 	 I: 	 P: 	 S: Actualizado[Verb]		 L: 	tiempo: 3.3e-05	accesos a disco: 3
+soothsayer:	F: 	 G: 	 I: 	 P: 	 S: 	 L: sortilegus		tiempo: 4.2e-05	accesos a disco: 3
+orificial:	F: orifique[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.4e-05	accesos a disco: 3
+queerer:	F: 	 G: 	 I: piu' strano		 P: 	 S: 	 L: 	tiempo: 4.6e-05	accesos a disco: 3
+cargo:	F: 	 G: 	 I: 	 P: 	 S: carga		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+arthritic:	F: 	 G: 	 I: 	 P: 	 S: artrítico		 L: 	tiempo: 5.7e-05	accesos a disco: 3
+abnegates:	F: renie, re/pudie, rejette[Verb]		 G: 	 I: abnega[Verb]		 P: abnega[Verb]		 S: abniega		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+reader:	F: lecteur[Noun]		 G: 	 I: 	 P: 	 S: lector[Noun]	libro de lectura[Noun]		 L: lector		tiempo: 5.4e-05	accesos a disco: 3
+disadvantageous:	F: 	 G: 	 I: 	 P: 	 S: desventajado[Adjective]		 L: 	tiempo: 6.8e-05	accesos a disco: 3
+fine:	F: 	 G: fein	Geldstrafe (f)	genau	Strafe (f)	Strafgebühr (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 5e-05	accesos a disco: 3
+aberrancy:	F: 	 G: Abweichung, Verirrung[Noun]		 I: aberrazione		 P: aberração[Adjective]		 S: aberraci/on	error		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+choke:	F: 	 G: 	 I: 	 P: 	 S: estrangular		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ejaculations:	F: e/jaculations (f)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+ideates:	F: 	 G: 	 I: 	 P: 	 S: idea[Verb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+consistently:	F: 	 G: 	 I: 	 P: 	 S: 	 L: convenienter		tiempo: 4.1e-05	accesos a disco: 3
+acquirement:	F: 	 G: 	 I: acquisizioni		 P: 	 S: Adquisición[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+medlar:	F: ne\fle[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+needy:	F: 	 G: bedürftig	hilfsbedürftig	notleidend		 I: bisognoso[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+bamboozle:	F: tricher[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+inaccurate:	F: 	 G: ungenau[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+admit:	F: 	 G: einlassen		 I: 	 P: 	 S: vt - (to the hospital) internar, ingressar [Verb]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+fast:	F: 	 G: fasten	schnell	waschecht		 I: 	 P: 	 S: 	 L: 	tiempo: 4.2e-05	accesos a disco: 3
+asshole:	F: 	 G: Arschloch[Noun]		 I: stronzo[Noun]		 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+objectives:	F: 	 G: 	 I: obiettivi		 P: 	 S: 	 L: 	tiempo: 4.9e-05	accesos a disco: 3
+rotten:	F: 	 G: 	 I: 	 P: 	 S: podrido		 L: 	tiempo: 6.6e-05	accesos a disco: 3
+earthwork:	F: 	 G: 	 I: terrapieno		 P: 	 S: 	 L: 	tiempo: 3.2e-05	accesos a disco: 1
+weak:	F: 	 G: schwach		 I: debole		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+cucumber:	F: 	 G: Gurke (f)		 I: 	 P: 	 S: el pepino		 L: 	tiempo: 4.7e-05	accesos a disco: 3
+addressers:	F: 	 G: 	 I: mittenti		 P: 	 S: Remitentes[Noun]		 L: 	tiempo: 1.9e-05	accesos a disco: 2
+din:	F: 	 G: 	 I: 	 P: 	 S: 	 L: strepitus		tiempo: 4.2e-05	accesos a disco: 3
+abstractedness:	F: 	 G: Abstraktheit		 I: astrattezza[Noun]		 P: 	 S: abstrasencia		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+cessation:	F: 	 G: 	 I: 	 P: 	 S: cese		 L: 	tiempo: 1.5e-05	accesos a disco: 1
+bleed:	F: 	 G: bluten	verlaufen		 I: 	 P: 	 S: sangrar		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+accenting:	F: 	 G: 	 I: 	 P: 	 S: acentuando[Verb]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+instructed:	F: 	 G: 	 I: 	 P: 	 S: 	 L: aspersus		tiempo: 2.6e-05	accesos a disco: 3
+skill:	F: Habilete/[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.7e-05	accesos a disco: 3
+cabbala:	F: 	 G: Kabala[Noun]		 I: 	 P: 	 S: ca/bala[Noun]		 L: 	tiempo: 4.3e-05	accesos a disco: 3
+chewing:	F: 	 G: 	 I: 	 P: 	 S: masticando		 L: 	tiempo: 3e-05	accesos a disco: 3
+govern:	F: 	 G: 	 I: governare[Verb]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+makeup:	F: 	 G: Make-up[Noun]		 I: trucco		 P: 	 S: 	 L: 	tiempo: 4.2e-05	accesos a disco: 3
+cherubs:	F: 	 G: 	 I: 	 P: 	 S: querubines		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+courteous:	F: courtois[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: affabilis		tiempo: 2.8e-05	accesos a disco: 3
+mastery:	F: 	 G: 	 I: padronanza		 P: 	 S: 	 L: dominatus		tiempo: 2.7e-05	accesos a disco: 3
+ballad:	F: ballade		 G: Ballade, die		 I: ballata; canzone popolare[Noun]		 P: 	 S: balada[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+star:	F: e/toile[Noun]		 G: 	 I: stella[Noun]		 P: estrela[Noun]		 S: la estrella		 L: stella		tiempo: 4.1e-05	accesos a disco: 3
+brains:	F: 	 G: 	 I: 	 P: 	 S: inteligencia; cabeza		 L: 	tiempo: 4e-05	accesos a disco: 2
+rude:	F: 	 G: 	 I: 	 P: 	 S: rudo		 L: immitis		tiempo: 2.8e-05	accesos a disco: 3
+japanese:	F: 	 G: Japaner (m)	japanisch		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+bother:	F: 	 G: 	 I: 	 P: 	 S: molestar		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+alone:	F: 	 G: allein		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+underpants:	F: 	 G: Unterhose (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+poisoner:	F: 	 G: 	 I: 	 P: 	 S: envenenador		 L: 	tiempo: 4.9e-05	accesos a disco: 3
+abatis:	F: 	 G: Baumverhau (mil.)		 I: barricata		 P: 	 S: barricada con alambre de púas, parapeto de troncos caídos	tala, abatida, barricada de alambre de púas		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+unmoved:	F: 	 G: 	 I: 	 P: 	 S: 	 L: immotus		tiempo: 4.4e-05	accesos a disco: 3
+symbols:	F: 	 G: 	 I: 	 P: simbolos[Noun]		 S: 	 L: 	tiempo: 7.5e-05	accesos a disco: 3
+piano:	F: piano[Noun]		 G: Klavier (n)		 I: 	 P: 	 S: el piano		 L: 	tiempo: 9.2e-05	accesos a disco: 3
+trainer:	F: encadreur[Noun]		 G: 	 I: 	 P: 	 S: adiestrador ( military)		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+radiate:	F: 	 G: abstrahlen	ausstrahlen	strahlen		 I: 	 P: 	 S: radiar, irradiar (heat) [Verb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+cupulate:	F: 	 G: 	 I: 	 P: 	 S: copular		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+abbreviator:	F: abre/viateur[Noun]		 G: verfertiger		 I: abbreviatore		 P: abreviador[Adjective]		 S: abreviador		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+stairway:	F: 	 G: 	 I: 	 P: 	 S: la escalera		 L: 	tiempo: 3.9e-05	accesos a disco: 3
+hindrance:	F: 	 G: 	 I: 	 P: 	 S: 	 L: impeditio		tiempo: 3.1e-05	accesos a disco: 3
+olivine:	F: 	 G: 	 I: olivina		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+brake:	F: 	 G: 	 I: 	 P: travão[Noun]		 S: freno		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+cocktail:	F: 	 G: 	 I: 	 P: 	 S: coctail[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+desk:	F: 	 G: Pult (m)	Schalter (m)	Schreibtisch (m)		 I: banco[Noun]	scrivania		 P: 	 S: el escritorio		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+galactose:	F: 	 G: 	 I: galattosio[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+greenhouse:	F: 	 G: 	 I: 	 P: 	 S: inverna/culo[Noun]		 L: 	tiempo: 2e-05	accesos a disco: 2
+version:	F: 	 G: Ausgabe (f)	Fassung (f)	Version (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+magisterially:	F: 	 G: 	 I: magistralmente[Adverb]		 P: 	 S: magistralmente		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+known:	F: connu (past.part.)[Verb]		 G: 	 I: 	 P: 	 S: conocido[Adjective]		 L: 	tiempo: 2.3e-05	accesos a disco: 2
+damagers:	F: endommageurs		 G: 	 I: 	 P: danificadores[Noun]		 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+depravity:	F: 	 G: 	 I: 	 P: 	 S: 	 L: improbitas		tiempo: 2.6e-05	accesos a disco: 3
+idealizes:	F: 	 G: 	 I: 	 P: 	 S: idealiza[Verb]		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+ably:	F: de fac,on compe/tente, habilement[Adjective]		 G: 	 I: abilmente		 P: ha/bilmente[Adverb]		 S: ha/bilmente[Adverb]	hábilmente[Adverb]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+ballast:	F: ballast, lest		 G: Ballast, masc.[Noun]		 I: zavorra[Noun]		 P: 	 S: lastre[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+crocodile:	F: 	 G: 	 I: 	 P: 	 S: 	 L: crocodilus		tiempo: 2.6e-05	accesos a disco: 3
+hairlines:	F: 	 G: Haarlinien (pl)[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.9e-05	accesos a disco: 3
+break:	F: 	 G: 	 I: 	 P: 	 S: romper		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+liberalness:	F: 	 G: 	 I: senza liberalita\		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+labyrinth:	F: labyrinthe (m)[Noun]		 G: Labyrinth, Irrgarten[Noun]		 I: 	 P: 	 S: laberinto		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+	tiempo: 2.3e-05	accesos a disco: 3
+coagulating:	F: 	 G: 	 I: che si coagula		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+prisoner:	F: 	 G: Gefangehner[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+geologist:	F: 	 G: Geologe (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+handcuffs:	F: 	 G: Handschellen (pl)[Noun]		 I: manette[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+	tiempo: 2.6e-05	accesos a disco: 3
+oftentimes:	F: 	 G: 	 I: spesso, sovente, frequente		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+raisins:	F: 	 G: Rosine (pl)		 I: 	 P: 	 S: las pasas, las pasas de uva[Noun]	las pasas, las pasas de uva[Noun]		 L: 	tiempo: 5.5e-05	accesos a disco: 3
+alliance:	F: alliance	alliance[Noun]		 G: Verbindung		 I: alleanza[Noun]		 P: 	 S: 	 L: 	tiempo: 4e-05	accesos a disco: 3
+ab:	F: 	 G: from (+ dative); also adv: off, away[Preposition]		 I: da[Preposition]		 P: 	 S: prefijo que indica separacio/n		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+maddened:	F: rendu fou[Adjective]		 G: 	 I: esasperato[Verb]		 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 2
+rasp:	F: 	 G: Raspel (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+haste:	F: 	 G: Eile (f)	Hast (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+silk:	F: 	 G: Seide (f)		 I: 	 P: 	 S: la seda		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+calamitously:	F: 	 G: 	 I: 	 P: 	 S: calamitosamente[Adverb]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+threatened:	F: 	 G: 	 I: 	 P: 	 S: amenazo/		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+traumatic:	F: 	 G: 	 I: 	 P: 	 S: traumatico		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+weaken:	F: 	 G: schwa.chen[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.8e-05	accesos a disco: 3
+attainable:	F: 	 G: 	 I: 	 P: 	 S: conseguilbe[Adjective]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+cereals:	F: 	 G: 	 I: 	 P: 	 S: cereales		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+mythomaniac:	F: 	 G: 	 I: mitomane		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+telecommunications:	F: 	 G: 	 I: 	 P: 	 S: tele/comunicaciones		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+hairs:	F: 	 G: Haare[Noun]		 I: peli[Noun]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+uproot:	F: 	 G: entwurzeln[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+incautious:	F: 	 G: 	 I: 	 P: 	 S: descuidado(a)		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+mutual:	F: 	 G: gegenseitig		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+catalepsy:	F: 	 G: 	 I: catalessi		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+traditionalists:	F: 	 G: 	 I: 	 P: 	 S: tradicionalistas		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+turtle:	F: 	 G: 	 I: 	 P: 	 S: tortuga		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+promoter:	F: 	 G: 	 I: 	 P: 	 S: 	 L: fautor		tiempo: 2.8e-05	accesos a disco: 3
+tergiversator:	F: 	 G: 	 I: 	 P: 	 S: tergiversador		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+sleep:	F: 	 G: Schlaf (m)	schlafen		 I: 	 P: 	 S: dormir		 L: somnus		tiempo: 2.8e-05	accesos a disco: 3
+padrone:	F: patron /nne[Noun]		 G: 	 I: padrone		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 2
+airfields:	F: 	 G: Flugplatze		 I: 	 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+veneration:	F: 	 G: Verehrung[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+facts:	F: 	 G: Tatsachen[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+arbitrarily:	F: 	 G: willku.rlich[Adverb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+callosity:	F: 	 G: 	 I: callosita\[Noun]		 P: calosidade		 S: callosidad[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+technic:	F: 	 G: 	 I: 	 P: 	 S: te/cnico 		 L: 	tiempo: 1.7e-05	accesos a disco: 1
+organism:	F: organisme[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+enjoy:	F: 	 G: 	 I: 	 P: 	 S: gozar		 L: 	tiempo: 1.5e-05	accesos a disco: 1
+academicism:	F: 	 G: 	 I: accademicismo[Noun]		 P: academicismo[Noun]		 S: academicismo[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+transsexualism:	F: 	 G: 	 I: 	 P: 	 S: transexualismo		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+greens:	F: 	 G: 	 I: 	 P: 	 S: verdes[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+billboard:	F: 	 G: Anschlagbrett (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 6.1e-05	accesos a disco: 3
+crutches:	F: 	 G: 	 I: 	 P: 	 S: muletas[Noun]		 L: 	tiempo: 4.1e-05	accesos a disco: 3
+funny:	F: amusant[Adjective]		 G: 	 I: 	 P: 	 S: chistoso		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+totality:	F: 	 G: 	 I: 	 P: 	 S: totalidad		 L: 	tiempo: 4.1e-05	accesos a disco: 3
+militaristic:	F: 	 G: militäristisch[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+sevenfold:	F: sept fois[Adverb]		 G: 	 I: 	 P: 	 S: 	 L: septiformus		tiempo: 2.3e-05	accesos a disco: 2
+walkingstick:	F: 	 G: Gehstock[Noun]		 I: bastone[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tangerine:	F: 	 G: 	 I: 	 P: 	 S: la mandarina		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+buyer:	F: 	 G: Kaufer[Noun]		 I: 	 P: 	 S: comprador		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+	tiempo: 2.5e-05	accesos a disco: 3
+plurals:	F: 	 G: 	 I: 	 P: 	 S: plurales		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+salt:	F: sel[Noun]		 G: Salz (n)	salzen		 I: sale		 P: sal[Noun]		 S: la sal		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+megahertz:	F: me/gahertz[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+	tiempo: 2.3e-05	accesos a disco: 3
+rape:	F: 	 G: 	 I: 	 P: 	 S: violar[Verb]		 L: 	tiempo: 2e-05	accesos a disco: 2
+chessman:	F: 	 G: 	 I: 	 P: 	 S: pieza de ajedrez		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+bastar:	F: 	 G: 	 I: 	 P: 	 S: 	 L: nothus[Noun]		tiempo: 2.7e-05	accesos a disco: 3
+machinating:	F: 	 G: 	 I: tramando[Verb]		 P: 	 S: maquinando		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+valuable:	F: 	 G: 	 I: 	 P: 	 S: valioso		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+chocolaty:	F: 	 G: 	 I: 	 P: 	 S: achocolata/do (a)[Adjective]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+hick:	F: 	 G: Tölpel (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 3.8e-05	accesos a disco: 3
+polonium:	F: polonium[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+abider:	F: 	 G: 	 I: colui che persevera[Noun]		 P: 	 S: morador		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+writing:	F: 	 G: druckend	schreibend	Schrift (f)	schriftstück		 I: 	 P: 	 S: escritura[Verb]		 L: apices		tiempo: 3e-05	accesos a disco: 3
+sunlight:	F: 	 G: 	 I: luce del sole[Noun]		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+lavatory:	F: 	 G: Toilette (f)		 I: 	 P: 	 S: el lavato/rio[Noun]	el ban~o[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+dialect:	F: 	 G: Dialekt (m)	Mundart (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+calcify:	F: 	 G: verkalken[Verb]		 I: calcificare[Verb]		 P: 	 S: calcificar		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+mortgage:	F: 	 G: 	 I: 	 P: 	 S: hipoteca[Noun]		 L: 	tiempo: 3e-05	accesos a disco: 3
+cablegrams:	F: ca^blogrammes[Noun]		 G: Telegramm[Noun]		 I: cablogrammi[Noun]		 P: 	 S: cablegramas[Noun]		 L: 	tiempo: 2e-05	accesos a disco: 2
+factiousness:	F: 	 G: 	 I: faziosità[Noun]		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+racemize:	F: 	 G: 	 I: racemizzare		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+college:	F: 	 G: Gymnasium (n)	Kollegium (n)	Universtät (f)		 I: 	 P: 	 S: el colegio		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+supper:	F: 	 G: Abendessen (n)		 I: 	 P: 	 S: la cena		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+timpani:	F: 	 G: 	 I: 	 P: 	 S: ti/mpano		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+kiddies:	F: les gamins[Noun]	les gosses[Noun]	les mioches (colloq.)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+pagoda:	F: 	 G: 	 I: pagoda		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+caddish:	F: 	 G: 	 I: maleducato[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+extending:	F: 	 G: 	 I: 	 P: 	 S: extendiendo		 L: 	tiempo: 2e-05	accesos a disco: 2
+saxophone:	F: 	 G: Saxophon (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+habitants:	F: habitants[Noun]		 G: Bewohner, Einwohner[Noun]		 I: 	 P: habitantes[Noun]		 S: habitantes		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+available:	F: disponible		 G: erhältlich	erreichbar		 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+campaigns:	F: 	 G: 	 I: campagne[Noun]		 P: 	 S: campan~as		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+technicality:	F: 	 G: 	 I: 	 P: 	 S: tecnicalidad		 L: 	tiempo: 3e-05	accesos a disco: 3
+celebrated:	F: 	 G: 	 I: 	 P: 	 S: festejo/, celebro/		 L: celebris		tiempo: 2.6e-05	accesos a disco: 3
+omniscience:	F: 	 G: Allwissenheit[Noun]		 I: 	 P: 	 S: omnisciencia		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+hearing:	F: 	 G: ho.rend[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+teatime:	F: l'heure du the/[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+sadomasochism:	F: 	 G: Sadomasochismus[Noun]		 I: sadomasochismo[Noun]		 P: sadomasoquismo		 S: sadomasoquismo[Noun]		 L: 	tiempo: 4.7e-05	accesos a disco: 3
+sweetheart:	F: 	 G: 	 I: carino(masc); carina(fem)[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+abbacy:	F: 	 G: Amt, Wu.rde		 I: abbazia	funzioni dell'abate		 P: abadia		 S: Abadía, convento, monasterio.	abadi/a		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+scandalous:	F: 	 G: 	 I: scandaloso[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+meditates:	F: me/dite[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+momentums:	F: 	 G: Impulse		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+store:	F: 	 G: ablegen	Geschäft (n)	lagern	Magazin (n)		 I: 	 P: 	 S: almacenar[Verb]	la tienda		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+testimonials:	F: 	 G: 	 I: 	 P: 	 S: testimonios		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+chiropractors:	F: 	 G: 	 I: 	 P: 	 S: me/dicos quiropra/cticos		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+haircut:	F: 	 G: Haarschnitt (m)	Frisur[Noun]		 I: taglio di capelli[Noun]		 P: corte de cabelo[Noun]		 S: corte de pelo		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+faces:	F: 	 G: Gesichter[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 4.1e-05	accesos a disco: 3
+instructed:	F: 	 G: 	 I: 	 P: 	 S: 	 L: aspersus		tiempo: 2.8e-05	accesos a disco: 3
+mopping:	F: 	 G: 	 I: 	 P: 	 S: trapear[Verb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+applicable:	F: 	 G: 	 I: 	 P: aplicável[Adjective]		 S: aplicable		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+month:	F: 	 G: Monat (m)		 I: mese[Noun]		 P: 	 S: el mes		 L: mensis mensis		tiempo: 2.8e-05	accesos a disco: 3
+jonquils:	F: jonquilles[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+vacuolar:	F: 	 G: 	 I: vacuolare[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+lasses:	F: 	 G: 	 I: 	 P: 	 S: las muchachas		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+prais:	F: 	 G: 	 I: 	 P: 	 S: 	 L: laudo	 laudare	 laudavi	 laudatum[Verb]	lauda (command)[Verb]		tiempo: 2.5e-05	accesos a disco: 3
+fraternize:	F: fraterniser[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+countermeasure:	F: 	 G: 	 I: 	 P: 	 S: contramedida[Noun]		 L: 	tiempo: 3.1e-05	accesos a disco: 3
+wailin:	F: 	 G: 	 I: 	 P: 	 S: 	 L: ploratus[Noun]		tiempo: 4.9e-05	accesos a disco: 3
+rob:	F: 	 G: 	 I: rubare[Verb]		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+weeper:	F: 	 G: 	 I: 	 P: 	 S: llorona[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+odium:	F: 	 G: 	 I: odio		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+accesses:	F: 	 G: 	 I: 	 P: 	 S: accesos[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+accuracy:	F: 	 G: die Genauigkeit		 I: accuratezza		 P: 	 S: acuracia	precisión[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+exigent:	F: 	 G: 	 I: 	 P: 	 S: exigente		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+elaborating:	F: e/laborant[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+omniscience:	F: 	 G: Allwissenheit[Noun]		 I: 	 P: 	 S: omnisciencia		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+harem:	F: 	 G: der Harem[Noun]		 I: 	 P: 	 S: Harém[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+acknowledgements:	F: 	 G: 	 I: riconoscimenti		 P: 	 S: reconocimientos		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+galleon:	F: 	 G: 	 I: galeone[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+favorable:	F: 	 G: 	 I: 	 P: 	 S: 	 L: complacitus		tiempo: 2.7e-05	accesos a disco: 3
+permanency:	F: 	 G: 	 I: 	 P: 	 S: 	 L: manentia		tiempo: 2.6e-05	accesos a disco: 3
+obnoxiousness:	F: 	 G: 	 I: sgradevolezza		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+peashooter:	F: 	 G: Blasrohr, Pusterohr		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tableaus:	F: tableaux[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+rumble:	F: 	 G: 	 I: 	 P: 	 S: retumbar;hacer estruendo; ruido sordo;asiento trasero de un cupe[Noun]		 L: rugio		tiempo: 2.8e-05	accesos a disco: 3
+ill:	F: 	 G: übel	krank	kränklich		 I: malato		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+angelfish:	F: 	 G: Engelfisch		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+baccate:	F: 	 G: 	 I: a forma di bacca		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+theore:	F: 	 G: 	 I: 	 P: 	 S: 	 L: theorema[Noun]		tiempo: 2.8e-05	accesos a disco: 3
+spud:	F: 	 G: 	 I: 	 P: 	 S: patata (slang)		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+kayaks:	F: 	 G: Kajaks[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+sacks:	F: piller[Verb]		 G: 	 I: sacchi[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+fickle:	F: 	 G: 	 I: 	 P: 	 S: inconstante[Adjective]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+plumulose:	F: 	 G: 	 I: 	 P: 	 S: plumuloso[Adjective]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+wakeful:	F: 	 G: 	 I: sveglio[Adjective]		 P: 	 S: 	 L: 	tiempo: 6.2e-05	accesos a disco: 3
+slow:	F: 	 G: langsam	träge		 I: 	 P: 	 S: lento		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+abstractedness:	F: 	 G: Abstraktheit		 I: astrattezza[Noun]		 P: 	 S: abstrasencia		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+earnestly:	F: 	 G: ernsthaft[Adverb]		 I: seriamente[Adverb]		 P: 	 S: seriamente/intensamente/de veras[Adverb]		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+earn:	F: gagner[Verb]		 G: verdienen[Verb]		 I: guadagnare[Verb]		 P: merecer[Verb]		 S: ganar		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+testing:	F: 	 G: 	 I: 	 P: 	 S: examinando	proba/ndo[Verb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+quickly:	F: rapidement[Adverb]		 G: 	 I: rapidamente		 P: 	 S: rapidamente[Adverb]		 L: concite		tiempo: 2.6e-05	accesos a disco: 3
+transcendentalism:	F: 	 G: 	 I: 	 P: 	 S: trascendentalismo		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+obstructions:	F: 	 G: 	 I: ostruzioni		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+spectacles:	F: 	 G: 	 I: 	 P: 	 S: gafas[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+skating:	F: patinage (m)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+tearoom:	F: salon de the/[Noun]		 G: 	 I: sala da the\[Noun]		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+macrocytic:	F: 	 G: 	 I: macrocitica		 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+shout:	F: 	 G: 	 I: 	 P: 	 S: gritar		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+dorm:	F: 	 G: 	 I: dormitorio[Noun]		 P: 	 S: la residencia universitaria[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+vcr:	F: 	 G: VCR		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+safety:	F: le sûreté[Noun]		 G: Geborgenheit (f)	Sicherheit (f)	Sicherheitsfaktor (m)		 I: sicurezza		 P: seguranc,a; salvamento		 S: seguridad[Noun]		 L: incolumitas		tiempo: 2.4e-05	accesos a disco: 3
+acknowledging:	F: 	 G: 	 I: 	 P: 	 S: reconociendo		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+contentious:	F: contentieux[Adjective]	querelleur[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: litigiosus		tiempo: 2.5e-05	accesos a disco: 3
+bacchanal:	F: 	 G: Bacchanalie, Orgie[Noun]		 I: baccanale		 P: bacanal[Noun]		 S: bacanal	jodienda		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+transmissible:	F: 	 G: 	 I: 	 P: 	 S: transmisible		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+accordances:	F: 	 G: 	 I: concordanze		 P: acordos[Noun]		 S: concordancias		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+delight:	F: 	 G: 	 I: 	 P: 	 S: 	 L: delectatio		tiempo: 2.5e-05	accesos a disco: 3
+objurgated:	F: 	 G: 	 I: 	 P: 	 S: reprendido[Adjective]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+pure:	F: 	 G: 	 I: 	 P: 	 S: puro		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+playground:	F: 	 G: Spielplatz (m)	Tummelplatz (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+antonym:	F: 	 G: Antonyme (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+fortunately:	F: 	 G: 	 I: 	 P: 	 S: afortunadamente		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+poppet:	F: 	 G: 	 I: carino[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+fished:	F: pêché[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+cancelled:	F: 	 G: 	 I: 	 P: 	 S: cancelo/		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+calibrated:	F: calibré[Adjective]		 G: kalibriert[Verb]		 I: calibrato[Adjective]		 P: calibrado		 S: calibrado		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+midlander:	F: 	 G: Mittelländer[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+lovely:	F: 	 G: 	 I: 	 P: lindo[Adjective]		 S: adorable[Adjective]		 L: 	tiempo: 3.2e-05	accesos a disco: 3
+sagging:	F: 	 G: 	 I: 	 P: caindo  or afundando[Verb]		 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+hacking:	F: 	 G: 	 I: 	 P: 	 S: hacking		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ducally:	F: 	 G: herzoglich[Adverb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+leafy:	F: 	 G: bla.ttrig[Adjective]		 I: 	 P: 	 S: 	 L: foliatus		tiempo: 4.2e-05	accesos a disco: 3
+woodpecker:	F: 	 G: Specht (m)[Noun]		 I: 	 P: 	 S: 	 L: picus		tiempo: 2.9e-05	accesos a disco: 3
+waiver:	F: 	 G: 	 I: rinuncia[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+joy:	F: joie[Noun]		 G: 	 I: 	 P: alegria[Noun]		 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+second-class:	F: 	 G: zweitklassig		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+assist:	F: 	 G: 	 I: assistere		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+spuriously:	F: 	 G: 	 I: 	 P: 	 S: espuriamente[Adverb]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+arrive:	F: arrivant[Verb]		 G: ankünfte	anlangen	eintreffen		 I: 	 P: 	 S: llegar		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+mandible:	F: 	 G: to[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+saddlebag:	F: une sacoche[Noun]		 G: Satteltasche[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+iatrogenic:	F: 	 G: iatrogen[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+plasmalemma:	F: 	 G: 	 I: 	 P: 	 S: plasmalema[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+countability:	F: 	 G: 	 I: 	 P: contabilidade[Noun]		 S: 	 L: 	tiempo: 4.3e-05	accesos a disco: 3
+gymnasts:	F: 	 G: 	 I: 	 P: 	 S: gimnastas[Noun]		 L: 	tiempo: 3.1e-05	accesos a disco: 3
+din:	F: 	 G: 	 I: 	 P: 	 S: 	 L: strepitus		tiempo: 2.6e-05	accesos a disco: 3
+c:	F: 	 G: 	 I: ci[Noun]		 P: terceira letra do alfabeto ingle	terceira letra do alfabeto ingle^s[Noun]		 S: c		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+gratifying:	F: 	 G: 	 I: gratificante[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+achievers:	F: 	 G: 	 I: 	 P: 	 S: personas que logran sus metas		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+concert:	F: 	 G: 	 I: 	 P: 	 S: el concierto		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+coterie:	F: coterie[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+tactic:	F: 	 G: 	 I: 	 P: 	 S: ta/ctica		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+spoon:	F: 	 G: Löffel (m)		 I: 	 P: 	 S: la cuchara		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+analyst:	F: 	 G: 	 I: analista[Noun]		 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+amphetamine:	F: amphetamine[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 4e-05	accesos a disco: 3
+exhume:	F: 	 G: 	 I: 	 P: 	 S: exhumar		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+lubricant:	F: 	 G: 	 I: 	 P: 	 S: lubricante[Adjective]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+abridgment:	F: 	 G: 	 I: edizione ridotta[Noun]		 P: resumo, suma/rio,reduc,a~o, privac,a~o[Noun]		 S: abreviación		 L: 	tiempo: 1.6e-05	accesos a disco: 1
+haw:	F: 	 G: 	 I: bacca;(in speech) esitazione[Noun]		 P: 	 S: 	 L: 	tiempo: 5.2e-05	accesos a disco: 3
+fumble:	F: 	 G: 	 I: 	 P: 	 S: balbucear[Verb]	manosear[Verb]		 L: 	tiempo: 4.6e-05	accesos a disco: 3
+warningly:	F: 	 G: warnend[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.4e-05	accesos a disco: 3
+carbonium:	F: 	 G: 	 I: carbonio[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+leo:	F: 	 G: Löwe (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+multicolore:	F: 	 G: 	 I: 	 P: 	 S: 	 L: versicolor	 -oris (abl.: -ore	 -ori)[Adjective]		tiempo: 2.6e-05	accesos a disco: 3
+economy:	F: 	 G: Ökonomie (f)	Volkswirtschaft (f)	Wirtschaft (f)		 I: economia[Noun]		 P: 	 S: econom'ia		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+thoughtfully:	F: pensivement[Adverb]		 G: 	 I: 	 P: 	 S: atentamente		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+frogs:	F: grenouilles[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.7e-05	accesos a disco: 3
+alphabet:	F: alphabet[Noun]		 G: 	 I: 	 P: 	 S: el alfabeto		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+magniloquent:	F: 	 G: 	 I: 	 P: 	 S: magnilocuente[Adjective]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+fishmonger:	F: 	 G: 	 I: pescivendolo[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+kingdom:	F: (animals/plants) règne (m)[Noun]	(le) royaume[Noun]		 G: Königreich (n)	Reich (n)		 I: 	 P: 	 S: reino[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+platter:	F: 	 G: Servierplatte (f)	Triter (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+cadaver:	F: cadavre		 G: Kadaver[Noun]		 I: cadavere[Noun]		 P: cadaver[Noun]		 S: cada/ver		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+happening:	F: 	 G: das Ereignis, das Happening[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+meditat:	F: 	 G: 	 I: 	 P: 	 S: 	 L: cogitare[Verb]	commentari[Verb]	meditari[Verb]		tiempo: 2.6e-05	accesos a disco: 3
+talkers:	F: 	 G: 	 I: 	 P: 	 S: habladores		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+reconciliation:	F: 	 G: 	 I: 	 P: 	 S: reconciliacio/n		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+calcic:	F: 	 G: 	 I: calcico[Adjective]		 P: 	 S: ca/lcico		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+bandage:	F: bandage		 G: Binde (f)	Verband (m)	verbinden		 I: benda; fasciatura[Noun]		 P: 	 S: la venda		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+jobless:	F: au chômage[Adjective]		 G: 	 I: disoccupato; senza lavoro[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+bard:	F: 	 G: 	 I: bardo[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+female:	F: 	 G: Frau (f)	Weib (n)	Weibchen (n)	weiblich		 I: 	 P: 	 S: femenino[Adjective]	hembra (animal, plant, thing)[Noun]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+methodical:	F: 	 G: 	 I: metodico		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ugh:	F: pouah		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+	tiempo: 2.5e-05	accesos a disco: 3
+membranous:	F: membraneux[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+symphonic:	F: 	 G: 	 I: 	 P: 	 S: sinfo/nico[Adjective]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+bench:	F: 	 G: 	 I: panchina		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+fee:	F: 	 G: Gebu.hr[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+accurst:	F: 	 G: 	 I: maledetto[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+habitation:	F: demeure[Noun]		 G: 	 I: abitazione		 P: habitac,a~o[Noun]	habitação	habitac,a~o[Noun]		 S: habitacio/n		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+sable:	F: martre[Noun]		 G: Zobel (m)		 I: baio		 P: marta zibelina; pele de marta zibelina[Noun]		 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tapestries:	F: 	 G: 	 I: tappezzerie[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+absences:	F: absences[Noun]		 G: 	 I: assenze		 P: ausencias[Noun]		 S: ausencias		 L: 	tiempo: 3.5e-05	accesos a disco: 3
+rental:	F: 	 G: Mietbetrag (m)	Miete (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+barbarically:	F: 	 G: 	 I: barbaramente[Adverb]		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 3
+stripped:	F: 	 G: 	 I: 	 P: 	 S: 	 L: exorbatus		tiempo: 2.4e-05	accesos a disco: 3
+elks:	F: 	 G: Wapitis[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+counterpoise:	F: contre-balancer[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+naturalism:	F: 	 G: 	 I: naturalismo		 P: 	 S: natu		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+kicks:	F: s'amuser		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 4.1e-05	accesos a disco: 3
+camelopard:	F: 	 G: 	 I: giraffa[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 3
+majesties:	F: 	 G: Majesta.ten[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+pisces:	F: 	 G: Fische (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+daybook:	F: 	 G: 	 I: agenda		 P: 	 S: libro dia		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+abbreviate:	F: abbre/ger[Verb]	abre/ger[Verb]		 G: abku.rzen		 I: abbreviare		 P: abreviar[Verb]		 S: abreviar	Abreviar, simplificar.	acortar[Verb]	abreviar		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+abstractedness:	F: 	 G: Abstraktheit		 I: astrattezza[Noun]		 P: 	 S: abstrasencia		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+cholinergic:	F: 	 G: 	 I: 	 P: 	 S: coline/rgico (a)[Adjective]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+five:	F: cinq[Adverb]		 G: fünf		 I: cinque[Noun]		 P: 	 S: cinco		 L: quinque		tiempo: 2.4e-05	accesos a disco: 3
+came:	F: 	 G: kam		 I: andato[Verb]		 P: 	 S: vino		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+artichokes:	F: 	 G: Artischochen (pl)		 I: 	 P: 	 S: 	 L: 	tiempo: 1.4e-05	accesos a disco: 1
+yourselves:	F: 	 G: 	 I: 	 P: voces mesmos[Pronoun]		 S: ustedes mismos		 L: 	tiempo: 3e-05	accesos a disco: 3
+abaf:	F: 	 G: 	 I: 	 P: 	 S: 	 L: in puppi		tiempo: 2.6e-05	accesos a disco: 3
+can't:	F: 	 G: 	 I: 	 P: 	 S: no puede		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+plaintive:	F: 	 G: 	 I: 	 P: 	 S: 	 L: postulativus		tiempo: 2.7e-05	accesos a disco: 3
+	tiempo: 2.5e-05	accesos a disco: 3
+celebration:	F: 	 G: Feier (f)	Fest (n)		 I: 	 P: 	 S: festividad		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+ugly:	F: laid[Adjective]		 G: haesslich[Adjective]	häßlich		 I: 	 P: 	 S: feo		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+forgiveably:	F: 	 G: vergebbar		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+knockdown:	F: démolir[Verb]		 G: 	 I: 	 P: 	 S: tumbar		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+cot:	F: lit d'enfant[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+e:	F: 	 G: 	 I: dandaleo		 P: 	 S: e		 L: 	tiempo: 4.8e-05	accesos a disco: 3
+veneration:	F: 	 G: Verehrung[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+disk:	F: 	 G: Scheibe (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+credulously:	F: cr/edulement[Adverb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+acrobacy:	F: 	 G: 	 I: 	 P: 	 S: Acrobacia[Noun]		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+calory:	F: 	 G: 	 I: caloria[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+torch:	F: 	 G: 	 I: 	 P: 	 S: antorcha		 L: lampas		tiempo: 3e-05	accesos a disco: 3
+poignant:	F: 	 G: 	 I: 	 P: 	 S: punzante[Adjective]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+orbital:	F: orbital[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+handwritten:	F: 	 G: handgeschreiben[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+cabstand:	F: 	 G: Taxiplatz[Noun]		 I: posteggio per i taxi[Noun]		 P: 	 S: parada de taxis[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+heritage:	F: 	 G: 	 I: Italian-Spanish-german		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+pang:	F: tiraillement (m)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+medleys:	F: me/langes[Noun]		 G: 	 I: 	 P: 	 S: baturrillos[Noun]	mezclas[Noun]	mezcolanzas[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+connection:	F: 	 G: Anschluß (m)	Verbindung (f)	Zusammenhang (m)		 I: 	 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+barking:	F: 	 G: 	 I: 	 P: 	 S: 	 L: latratus		tiempo: 3.8e-05	accesos a disco: 3
+strongly:	F: 	 G: 	 I: 	 P: 	 S: fuertemente		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+paddle:	F: pagaie, palette[Noun]		 G: 	 I: remo		 P: 	 S: 	 L: 	tiempo: 4.7e-05	accesos a disco: 3
+unaltered:	F: 	 G: unvera.ndert[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 5.5e-05	accesos a disco: 3
+abolitionary:	F: 	 G: 	 I: abolizionario[Noun]		 P: 	 S: abolicionista		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+quench:	F: se de/salte/rer		 G: durst löschen	löschen	stillen		 I: estinguere, spegnere		 P: 	 S: 	 L: 	tiempo: 3.9e-05	accesos a disco: 3
+do:	F: 	 G: ausführen	machen	tun	verrichten		 I: 	 P: 	 S: hacer		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+needfully:	F: 	 G: 	 I: necessariamente[Adverb]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+seals:	F: 	 G: 	 I: 	 P: 	 S: focas; sellos		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+faithfully:	F: 	 G: ergebenst	treu	treulich		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+cay:	F: 	 G: 	 I: 	 P: 	 S: cayo		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+tongue:	F: 	 G: Zunge (f)		 I: 	 P: 	 S: la lengua	lengua		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+registered:	F: 	 G: eingetragen	registriert		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+accessions:	F: 	 G: 	 I: entrate		 P: 	 S: accesos[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+pigeonhole:	F: pigeonnier[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+zapping:	F: 	 G: 	 I: 	 P: 	 S: zapeo[Noun]		 L: 	tiempo: 6.5e-05	accesos a disco: 3
+dally:	F: 	 G: 	 I: 	 P: 	 S: tardar, perder el tiempo[Verb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+hacker:	F: 	 G: Hacker[Noun]		 I: pirata informatico[Noun]		 P: mutilador[Noun]	mutilador[Noun]		 S: n.-('haa-ker), one who hacks. Also one who is capable of accessing unauthorized info.    	pirata informático[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+hairstyle:	F: 	 G: Frisur (f)[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+seamstress:	F: 	 G: 	 I: 	 P: 	 S: modista		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+telescopes:	F: 	 G: 	 I: 	 P: 	 S: telescopios		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+adapted:	F: 	 G: 	 I: 	 P: 	 S: adaptado		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+popcorn:	F: 	 G: 	 I: popcorn[Noun]		 P: 	 S: las palomitas[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+ulcers:	F: 	 G: Geschwu.re		 I: 	 P: 	 S: 	 L: 	tiempo: 3.4e-05	accesos a disco: 3
+merino:	F: me/rino[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 4.5e-05	accesos a disco: 2
+ventriloquist:	F: 	 G: Bauchredner[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+yokel:	F: 	 G: dummer Bauer (m)[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+accused:	F: 	 G: 	 I: accusato		 P: 	 S: acusado/da		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+s:	F: 	 G: 	 I: 	 P: de/cima nona letra do alfabeto[Article]		 S: 	 L: 	tiempo: 4.9e-05	accesos a disco: 3
+thanklessly:	F: 	 G: 	 I: 	 P: 	 S: malagradecidamnete		 L: 	tiempo: 3e-05	accesos a disco: 3
+cachepot:	F: cachepot[Noun]		 G: 	 I: coprivaso[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+smoke:	F: 	 G: 	 I: 	 P: 	 S: el humo	fumar		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+sightseeing:	F: 	 G: Sehenswürdigkeiten (pl)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+wealth:	F: 	 G: Reichtum[Noun]		 I: 	 P: 	 S: 	 L: opulentia		tiempo: 2.9e-05	accesos a disco: 3
+magistrates:	F: 	 G: 	 I: magistrati		 P: 	 S: magistrados[Noun]		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+radiant:	F: 	 G: 	 I: 	 P: 	 S: brillante, resplandeciente[Adjective]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+oceanographer:	F: 	 G: 	 I: oceanografo		 P: 	 S: oceanografo		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+polis:	F: 	 G: 	 I: 	 P: 	 S: polis		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+insert:	F: 	 G: Beifügung (f)	einfügen	Einlage (f)	einlegen		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+alliterate:	F: 	 G: 	 I: allitterare[Verb]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+samples:	F: 	 G: 	 I: 	 P: amostras[Noun]		 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+door:	F: 	 G: Pforte (f)	Tür (f)		 I: porta[Noun]		 P: 	 S: la puerta		 L: ianua		tiempo: 2.8e-05	accesos a disco: 3
+grandmother:	F: 	 G: Großmutter (f)		 I: 	 P: 	 S: abuela	la abuela		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+skate:	F: patin (m)[Noun]		 G: 	 I: 	 P: 	 S: patinar		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+meander:	F: me/andre[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+permanency:	F: 	 G: 	 I: 	 P: 	 S: 	 L: manentia		tiempo: 2.8e-05	accesos a disco: 3
+model:	F: 	 G: formen	Modell (n)	müstergültig	Muster (n)	Vorbild (n)		 I: modello[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+fistful:	F: poingée[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+beast:	F: 	 G: 	 I: bestia		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+laborious:	F: laborieux (m), laborieuse (f)[Noun]		 G: 	 I: 	 P: 	 S: laborioso	tabajoso[Adjective]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+unremitting:	F: 	 G: 	 I: 	 P: 	 S: 	 L: assiduus		tiempo: 3e-05	accesos a disco: 3
+balked:	F: 	 G: 	 I: frustrato; privato[Adjective]		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+jaws:	F: ma^choires[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+pupil:	F: 	 G: 	 I: 	 P: 	 S: a alumno[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+cot:	F: lit d'enfant[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+harlequin:	F: 	 G: 	 I: 	 P: 	 S: Arlequín[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+occident:	F: 	 G: Okzident[Noun]		 I: occidente		 P: 	 S: occidente, poniente, oeste[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+niobium:	F: niobium (m)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+oceanologically:	F: 	 G: 	 I: 	 P: 	 S: oceanologicamente		 L: 	tiempo: 2e-05	accesos a disco: 2
+electricity:	F: 	 G: Elektrizität (f)		 I: 	 P: 	 S: electricidad[Noun]		 L: 	tiempo: 2e-05	accesos a disco: 2
+welcom:	F: 	 G: 	 I: 	 P: 	 S: 	 L: acceptus[Adjective]	commodus[Adjective]	gratus[Adjective]	salutatio[Noun]		tiempo: 2.3e-05	accesos a disco: 2
+nightmare:	F: 	 G: 	 I: 	 P: 	 S: la pesadilla		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+document:	F: document[Noun]		 G: Akte (f)	Beleg (m)	Dokument (n)	dokumentieren	Urkunde (f)		 I: 	 P: 	 S: documentar[Verb]	documento[Noun]	document		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+pen:	F: 	 G: Feder (f)	Lichtstift (m)	schreiben abfassen		 I: 	 P: 	 S: la pluma	un boligrafo[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+cataloged:	F: 	 G: 	 I: 	 P: 	 S: catalogado		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+contentions:	F: disputes[Noun]	e/mulations[Noun]	luttes[Noun]		 G: 	 I: 	 P: 	 S: contenciones[Noun]	contiendas[Noun]	disputas[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+habit:	F: coutume[Noun]		 G: Gewohnheit[Noun]	Angewohnheit[Noun]	Zustand[Noun]		 I: abitudine[Noun]	abitudine (fem)		 P: ha/bito[Noun]	ha/bito[Noun]		 S: ha/bito	hábito, costumbre; adicción (drogas)[Noun]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+macroeconomics:	F: macroeconomie[Noun]		 G: Makroo.konomie[Noun]		 I: macroeconomia		 P: 	 S: macroeconomia		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+natural:	F: naturel (le)[Adjective]		 G: natürlich	unbefangen	ungekünstelt	unverfänglich		 I: naturale		 P: 	 S: naturalis		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+life:	F: 	 G: Leben (n)	Lebensdauer (m)	Standzeit (f)		 I: 	 P: 	 S: la vida		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+pear:	F: 	 G: Birne	Birne (f)		 I: 	 P: 	 S: la pera		 L: pirum		tiempo: 2.1e-05	accesos a disco: 2
+capacity:	F: 	 G: 	 I: 	 P: capacidade[Noun]		 S: capacidad		 L: 	tiempo: 3.2e-05	accesos a disco: 3
+villa:	F: 	 G: Landhaus (n)	Mansion (f)	Villa (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 2
+enlarge:	F: 	 G: 	 I: ingrandire[Verb]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+thirdly:	F: 	 G: 	 I: 	 P: 	 S: tercera		 L: 	tiempo: 3.9e-05	accesos a disco: 3
+robberies:	F: 	 G: 	 I: furti[Noun]		 P: 	 S: 	 L: 	tiempo: 2.4e-05	accesos a disco: 2
+letterhead:	F: 	 G: Briefkopf[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+poem:	F: 	 G: 	 I: 	 P: 	 S: el poema[Noun]		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+allow:	F: autoriser, permettre[Verb]		 G: gestatten[Verb]		 I: 	 P: 	 S: dejar	permitir		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+alligator:	F: alligator	alligator[Noun]		 G: 	 I: alligatore[Noun]		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+bulletin:	F: 	 G: 	 I: bollettino[Noun]		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+caballero:	F: cavalier[Noun]		 G: 	 I: cavaliere		 P: 	 S: gent;emen	gentleman	knight[Noun]		 L: 	tiempo: 3.1e-05	accesos a disco: 3
+meagerly:	F: maigrement[Adverb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+absolute:	F: absolu[Adjective]		 G: absolut		 I: assoluto		 P: absoluto[Adjective]		 S: absoluto,-a; completo,-a; puro,-a; incontrovertible; 	absoluto[Adjective]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+pacificist:	F: pacifiste[Noun]		 G: PAZIFIST[Noun]		 I: pacifista[Noun]		 P: 	 S: pacifista[Adjective]		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+imagine:	F: 	 G: 	 I: imaginare		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+tsunami:	F: 	 G: Springflut[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+sackcloth:	F: une vêtement de deuil[Noun]		 G: Sackleinen[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+abruptly:	F: brusquement[Adjective]		 G: plotzlich[Adverb]		 I: improvvisamente		 P: bruscamente[Adverb]		 S: bruscamente; con aspereza; repentinamente	repentinamente (leave); bruscamente (speak)[Adverb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+license:	F: 	 G: lizenzieren		 I: 	 P: 	 S: la licencia[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+oligosaccharides:	F: 	 G: 	 I: oligosaccaridi		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+doors:	F: 	 G: 	 I: 	 P: 	 S: las puertas[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+telephone:	F: 	 G: Fernsprecher (m)	Telefon (n)	telefonieren		 I: tele\fono[Noun]		 P: 	 S: tele/fono		 L: 	tiempo: 2.9e-05	accesos a disco: 3
+ninetieth:	F: quatre-vingt-dixie\me[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+measurements:	F: 	 G: 	 I: misurazioni		 P: medicoes[Noun]		 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+friends:	F: 	 G: 	 I: 	 P: 	 S: los amigos		 L: 	tiempo: 3.1e-05	accesos a disco: 3
+candlestick:	F: 	 G: 	 I: candeliere[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+attentively:	F: 	 G: 	 I: 	 P: 	 S: atentamente[Pronoun]		 L: 	tiempo: 6.7e-05	accesos a disco: 3
+bastard:	F: 	 G: 	 I: bastardo[Adjective]		 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+prow:	F: 	 G: 	 I: 	 P: 	 S: 	 L: prora		tiempo: 2.9e-05	accesos a disco: 3
+alley:	F: ruelle, alle/e	ruelle, allée[Noun]		 G: Gasse		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+genesis:	F: 	 G: Genesis[Noun]		 I: genesi		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+wishbone:	F: brechet[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+enlargements:	F: 	 G: 	 I: ingrandimenti		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+catastrophe:	F: 	 G: 	 I: catastrofe	disastro		 P: 	 S: cata/strofe		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+thoughtful:	F: pensif, meditatif, reveur[Adjective]	serieux, reflechi, prudent[Adjective]		 G: 	 I: 	 P: 	 S: atento		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+ugly:	F: laid[Adjective]		 G: haesslich[Adjective]	häßlich		 I: 	 P: 	 S: feo		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tariffs:	F: 	 G: 	 I: 	 P: 	 S: tarifas		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+martini:	F: 	 G: Martini (n)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+mournful:	F: 	 G: 	 I: 	 P: 	 S: 	 L: lugubris		tiempo: 2.2e-05	accesos a disco: 2
+lubric:	F: 	 G: 	 I: 	 P: 	 S: lúbrico[Adjective]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+namely:	F: nomement [Adverb]	nommement[Adverb]		 G: na.mlich[Adverb]		 I: esplicitamente		 P: nomeadamente[Adverb]		 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+legally:	F: legalement[Adverb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+do:	F: 	 G: ausführen	machen	tun	verrichten		 I: 	 P: 	 S: hacer		 L: 	tiempo: 2e-05	accesos a disco: 2
+fractals:	F: fractales (f)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+ascot:	F: 	 G: Krawatte (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+renaissance:	F: 	 G: Renaissance (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+seacoast:	F: 	 G: 	 I: 	 P: 	 S: costa del mar		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+hitchhike:	F: 	 G: per Anhalter fahren	tranpen		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+ultrafashionable:	F: 	 G: Ultramodern[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 2
+dos:	F: 	 G: DOS		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+body:	F: 	 G: Hauptteil (m)	Körper (m)	Leib (m)		 I: 	 P: 	 S: el cuerpo		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+grain:	F: 	 G: 	 I: 	 P: 	 S: 	 L: frumentum		tiempo: 2.9e-05	accesos a disco: 3
+alphabetizing:	F: alphabetizer[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 3.8e-05	accesos a disco: 3
+octave:	F: 	 G: 	 I: ottava		 P: 	 S: 	 L: 	tiempo: 3.3e-05	accesos a disco: 3
+bagpipes:	F: 	 G: Dudelsaecke, pl.[Noun]		 I: cornamuse[Noun]		 P: gaitas de foles[Noun]		 S: gaitas[Noun]		 L: 	tiempo: 2.1e-05	accesos a disco: 2
+unadjusted:	F: 	 G: unjustiert[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 3.3e-05	accesos a disco: 3
+abysses:	F: abysses[Noun]	abi^mes[Noun]		 G: Abgru.nde[Noun]		 I: abissi		 P: 	 S: abismos		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+starry:	F: 	 G: 	 I: 	 P: 	 S: 	 L: stelliger		tiempo: 2.3e-05	accesos a disco: 2
+jubilee:	F: jubilé (m)[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+alchemistic:	F: 	 G: 	 I: alchimistico[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+float:	F: 	 G: 	 I: 	 P: 	 S: flotar		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+toolbox:	F: 	 G: 	 I: 	 P: 	 S: caja de herramientas		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+terrarium:	F: 	 G: 	 I: 	 P: 	 S: terrario		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+refrigerator:	F: 	 G: Eisschrank (m)	Kühlschrank (m)		 I: 	 P: 	 S: la nevera		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+bladder:	F: 	 G: 	 I: 	 P: 	 S: vejiga[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+l:	F: 	 G: 	 I: "lire diecimila"		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+swords:	F: 	 G: 	 I: 	 P: espadas[Noun]		 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+telepathic:	F: 	 G: 	 I: 	 P: 	 S: telepa/tico		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+usurp:	F: 	 G: sich aneignen	sich bemächtigen	usurpieren		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+obligately:	F: 	 G: 	 I: 	 P: 	 S: obligatoriamente[Adverb]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+tiny:	F: 	 G: 	 I: 	 P: diminuto, pequeno, delgado, fino[Adjective]		 S: pequen~o		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+faded:	F: affaibli, atte/nue/[Adjective]		 G: 	 I: svanito\a\i\e[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 3
+doorbell:	F: 	 G: Türklingel[Noun]		 I: campanello[Noun]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+cup:	F: 	 G: Tasse (f)		 I: tazza[Noun]	coppa[Noun]		 P: taça[Noun]		 S: la taza		 L: 	tiempo: 2.5e-05	accesos a disco: 3
+pairs:	F: 	 G: 	 I: pari		 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+miscellaneous:	F: 	 G: 	 I: miscellàneo[Adjective]		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+rabbi:	F: rabbin		 G: Rabbiner (m)		 I: rabbino		 P: 	 S: rabino[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+forge:	F: 	 G: 	 I: 	 P: 	 S: 	 L: oblivisci[Verb]		tiempo: 2.6e-05	accesos a disco: 3
+death-dealing:	F: 	 G: 	 I: 	 P: 	 S: 	 L: letifer		tiempo: 2.6e-05	accesos a disco: 3
+barbiturates:	F: 	 G: 	 I: barbiturici[Noun]		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+hot:	F: 	 G: heiß	scharfgewürzt		 I: impetuosa		 P: 	 S: caliente		 L: 	tiempo: 2e-05	accesos a disco: 2
+houses:	F: 	 G: Häuser		 I: 	 P: 	 S: casas		 L: 	tiempo: 2.3e-05	accesos a disco: 3
+baleful:	F: 	 G: 	 I: funesto; maligno[Adjective]		 P: maligno, funesto[Adjective]		 S: funesto[Adjective]		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+thousands:	F: 	 G: 	 I: 	 P: 	 S: miles		 L: 	tiempo: 3.4e-05	accesos a disco: 3
+swear:	F: jurer ; preter serment[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+carved:	F: 	 G: 	 I: 	 P: 	 S: tallado		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+can:	F: 	 G: Büchse (f)	darf	Dose (f)	einmachen	kann	Kanne (f)	können		 I: brocca[Noun]		 P: 	 S: la lata	lata		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+cybernetic:	F: cyberne/tique[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+sitting:	F: 	 G: sitzend	Sitzung (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 3e-05	accesos a disco: 3
+neoorthodox:	F: 	 G: neoorthodox[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+fraternal:	F: fraternel[Adjective]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 7.9e-05	accesos a disco: 3
+key:	F: (map) légende	une cle/, or clef[Noun]	une touche (keyboard)[Noun]		 G: Lösung (f)	Schlüssel (m)	Taste (f)	Tonart (f)		 I: chiave	tasto[Noun]		 P: chave[Noun]		 S: la llave	llave		 L: 	tiempo: 2.3e-05	accesos a disco: 2
+salvage:	F: le sauvetage[Noun]		 G: 	 I: 	 P: salvamento[Noun]		 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+eighth:	F: huitie\me[Adjective]		 G: Achtel[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+mankind:	F: 	 G: 	 I: umanità		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+loader:	F: 	 G: Lader[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+alpinism:	F: alpinisme[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+dancer:	F: 	 G: 	 I: ballerino[Noun]		 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+information:	F: 	 G: Aufschluß (m)	Auskunft (f)	Information (f)		 I: 	 P: 	 S: informacion		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+ripple:	F: 	 G: Kräuselung (f)	Welligkeit (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+unavailingly:	F: 	 G: vergeblich[Adverb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+envy:	F: envidia[Noun]	envidiar[Verb]		 G: 	 I: 	 P: 	 S: envidiar[Verb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+yak:	F: yack[Noun]		 G: 	 I: yak[Noun]		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+god-fearing:	F: 	 G: 	 I: 	 P: 	 S: 	 L: religiosus		tiempo: 2.8e-05	accesos a disco: 3
+tasting:	F: 	 G: 	 I: 	 P: 	 S: gustando		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+flagship:	F: 	 G: Flaggschiff[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 3
+offshore:	F: 	 G: 	 I: lontano da terra		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+journalism:	F: journalisme (m)		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+prearranged:	F: 	 G: 	 I: 	 P: 	 S: arreglado de antemano[Adjective]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+fire:	F: 	 G: anfeuern	Feuer (n)	feuern		 I: 	 P: 	 S: el fuego	fuego	hacer fuego[Verb]	la lumbre [Noun]		 L: ignis	incendia		tiempo: 2.7e-05	accesos a disco: 3
+treaties:	F: 	 G: 	 I: 	 P: 	 S: pacto ( pact )		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tempered:	F: 	 G: 	 I: 	 P: 	 S: templado		 L: 	tiempo: 3e-05	accesos a disco: 3
+haiku:	F: 	 G: Haiku[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+teeth:	F: 	 G: Zähne (pl)		 I: 	 P: dentes[Noun]		 S: dientes		 L: 	tiempo: 2.2e-05	accesos a disco: 2
+seal:	F: 	 G: Abdichtung (f)	Blechverschluß (m)	Dichtung (f)	Seehund (m)	siegeln		 I: 	 P: 	 S: foca; sello		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+quarterfinal:	F: quart de finale[Noun]		 G: Viertelfinale[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+calculated:	F: calculé		 G: berechnet, vorbedacht, absichtlich[Adjective]		 I: calcolato[Adjective]		 P: calculado		 S: calculado		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+witchlike:	F: 	 G: hexenhaft[Adjective]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.3e-05	accesos a disco: 2
+additionally:	F: 	 G: Zusaetzlich		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+outcry:	F: 	 G: 	 I: 	 P: 	 S: 	 L: vociferatio		tiempo: 2.8e-05	accesos a disco: 3
+danced:	F: 	 G: 	 I: ballavo ballava[Verb]		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+menagerie:	F: me/nagerie[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+aberrate:	F: 	 G: abweichen[Verb]		 I: aberrare[Verb]		 P: 	 S: aberrar	desviar		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+lunch:	F: le de/jeuner[Noun]		 G: Mittagessen (n)		 I: 	 P: 	 S: almorzar (v)	almuerzo (n)	el almuerzo		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+inept:	F: 	 G: unpassend	untüchtig		 I: 	 P: 	 S: 	 L: 	tiempo: 3.1e-05	accesos a disco: 3
+vegetable:	F: 	 G: Gemüse (n)	Pflanze (f)		 I: 	 P: 	 S: la legumbre		 L: 	tiempo: 3e-05	accesos a disco: 3
+barometer:	F: 	 G: 	 I: barometro		 P: 	 S: 	 L: 	tiempo: 2.2e-05	accesos a disco: 2
+halogen:	F: 	 G: Halogen[Noun]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+malnutrition:	F: 	 G: 	 I: 	 P: 	 S: desnutricio/n[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+touch:	F: 	 G: 	 I: 	 P: 	 S: tocar		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+tablespoon:	F: 	 G: 	 I: cucchiaio da tavola		 P: colher de sopa[Noun]		 S: cuchara 	la cuchara grande		 L: 	tiempo: 3e-05	accesos a disco: 3
+yellow:	F: jaune[Adjective]		 G: gelb		 I: giallo[Noun]		 P: 	 S: amarillo		 L: 	tiempo: 3e-05	accesos a disco: 3
+day:	F: jour[Noun]		 G: Tag (m)		 I: giorno		 P: 	 S: Día		 L: dies diei		tiempo: 2.7e-05	accesos a disco: 3
+houses:	F: 	 G: Häuser		 I: 	 P: 	 S: casas		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+traitoress:	F: 	 G: 	 I: 	 P: 	 S: traidora		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+octagons:	F: 	 G: Oktagone[Noun]		 I: 	 P: 	 S: octagonos		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+monastery:	F: 	 G: Kloster		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+inching:	F: 	 G: 	 I: 	 P: 	 S: despacio[Adverb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+begun:	F: 	 G: 	 I: 	 P: 	 S: 	 L: exorsus		tiempo: 2.7e-05	accesos a disco: 3
+was:	F: 	 G: 	 I: 	 P: 	 S: fue 		 L: 	tiempo: 3.2e-05	accesos a disco: 3
+bar:	F: 	 G: balken	Bar (f)	Gericht (n)	Lokal (n)		 I: barra; ordine degli avvocati[Noun]		 P: 	 S: barra[Noun]		 L: 	tiempo: 3e-05	accesos a disco: 3
+bean:	F: 	 G: 	 I: 	 P: 	 S: haba, jud\ia		 L: 	tiempo: 2.4e-05	accesos a disco: 3
+negates:	F: 	 G: negiert[Verb]		 I: 	 P: 	 S: 	 L: 	tiempo: 2.1e-05	accesos a disco: 2
+fishtail:	F: queue-de-poisson[Noun]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+zealously:	F: 	 G: eifrig, begeistert		 I: promurosamente - fanaticamente[Adverb]		 P: 	 S: 	 L: sedulo		tiempo: 2.9e-05	accesos a disco: 3
+wish:	F: desir, souhait[Noun]	desirer, souhaiter qch[Verb]		 G: wünschen	Wunsch (m)		 I: auguri[Noun]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+computers:	F: ordinateurs[Noun]		 G: 	 I: 	 P: 	 S: computadoras[Noun]		 L: 	tiempo: 2.8e-05	accesos a disco: 3
+mechanize:	F: 	 G: 	 I: meccanizzare[Verb]		 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+offhanded:	F: 	 G: 	 I: estemporaneo, improvvisato		 P: 	 S: 	 L: 	tiempo: 2.9e-05	accesos a disco: 3
+myopically:	F: 	 G: 	 I: miopicamente		 P: 	 S: 	 L: 	tiempo: 2.5e-05	accesos a disco: 3
+quarter:	F: quartier[Noun]		 G: vierteilen	Viertel (n)		 I: quarto		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+reconcile:	F: 	 G: 	 I: 	 P: 	 S: reconciliar[Verb]		 L: 	tiempo: 2.7e-05	accesos a disco: 3
+voltage:	F: 	 G: Spannung (f)	Stromspannung (f)		 I: 	 P: 	 S: 	 L: 	tiempo: 2.8e-05	accesos a disco: 3
+quarantine:	F: 	 G: 	 I: quarantena		 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+david:	F: 	 G: David		 I: 	 P: 	 S: 	 L: 	tiempo: 2.7e-05	accesos a disco: 3
+razor:	F: 	 G: Rasierer (m)	Rasiermesser (m)		 I: 	 P: 	 S: la navaja		 L: 	tiempo: 2.6e-05	accesos a disco: 3
+
+tiempo total: 0.028542 accesos totales: 2891
