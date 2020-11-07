@@ -50,11 +50,17 @@ class Index {
         std::ifstream file(file_name);
         std::ofstream outfile(out_file);
         std::string str;
-        while(std::getline(file, str))
-            find(str.c_str(), outfile);
+        double time = 0;
+        long accesses = 0;
+        while(std::getline(file, str)) {
+            auto [x, y] = find(str.c_str(), outfile);
+            time += x;
+            accesses += y;
+        }
+        outfile << "\ntiempo total: " << time << " accesos totales: " << accesses << std::endl;
     }
 
-    void find(const char* s, std::ofstream& out) {
+    std::pair<double, long> find(const char* s, std::ofstream& out) {
         T t(s);
         datastructure.start_measures();
         auto opt = datastructure.find(t);
@@ -62,6 +68,7 @@ class Index {
         if(opt.has_value())
             out << opt.value();
         out << "\ttiempo: " << time << "\taccesos a disco: " << accesses << std::endl;
+        return {time, accesses};
     }
 
     void execute() {
