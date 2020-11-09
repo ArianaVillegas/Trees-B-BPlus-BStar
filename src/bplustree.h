@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-
+#include <time.h>
 template <class T, int ORDER>
 class BPlusTree;
 
@@ -16,7 +16,6 @@ class BPlusTreeNode{
 
     T keys [ORDER + 1];
     long children [ORDER + 2];
-    long records_id[ORDER + 1]; //id of the record on disk
 
     long n_keys = 0;
     bool is_leaf = false;
@@ -60,15 +59,13 @@ public:
      * @param key_value
      * @param pos
      */
-    void insertKeyInPosition(int pos, const T &key_value, const long record_id){
+    void insertKeyInPosition(int pos, const T &key_value){
         //Move to the right until we find the pos of the key_value value
         for(int i = n_keys; i > pos; i--){
             keys[i] = keys[i - 1];
-            records_id[i] = records_id[i - 1];
             children[i + 1] = children[i];
         }
         keys[pos] = key_value;
-        records_id[pos] = record_id;
         children[pos + 1] = children [pos];
         n_keys += 1;
 
@@ -101,7 +98,7 @@ class BPlusTree{
   using iterator = BPlusTreeIterator<T,ORDER>;
   using diskManager = std::shared_ptr<pagemanager>;
 
-  enum state { OVERFLOW, NORMAL}; //state of the node insertion
+  enum state { BP_OVERFLOW, NORMAL}; //state of the node insertion
 
   diskManager disk_manager; // disk manager of the index file
 
@@ -110,6 +107,11 @@ class BPlusTree{
       long disk_id = 1;
       long n_nodes = 0;
   } header;
+
+    // Exection time and disk access
+    clock_t t_start, t_end;
+    double time_taken;
+    long access;
 
   protected:
 
@@ -173,7 +175,7 @@ class BPlusTree{
      * @param value
      * @return int
      */
-    int insert(node &ptr_node, const T value, const long record_id){
+    int insert(node &ptr_node, const T value){
         int pos = 0;
 
         //find position on node
@@ -181,17 +183,17 @@ class BPlusTree{
             pos++;
 
         if (ptr_node.is_leaf){
-            ptr_node.insertKeyInPosition(pos, value, record_id);       //insert if is a leaf node
+            ptr_node.insertKeyInPosition(pos, value);       //insert if is a leaf node
             writeNode(ptr_node.disk_id, ptr_node);
         } else {        //search for the child node to insert
             long page_id = ptr_node.children[pos];
             node child = readNode(page_id);
-            int state = insert(child, value, record_id);
-            if (state == OVERFLOW){
+            int state = insert(child, value);
+            if (state == BP_OVERFLOW){
                 splitNode(ptr_node, pos);
             }
         }
-        return ptr_node.isOverflow() ? OVERFLOW : NORMAL; //the insertion status
+        return ptr_node.isOverflow() ? BP_OVERFLOW : NORMAL; //the insertion status
     }
 
     /**
@@ -210,7 +212,6 @@ class BPlusTree{
         for (iter_child = 0; iter_keys < ORDER / 2; iter_child++) { //copy to left node
             left_node.children[iter_child] = ptr_node.children[iter_keys];
             left_node.keys[iter_child] = ptr_node.keys[iter_keys];
-            left_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             left_node.n_keys++;
             iter_keys++;
         }
@@ -218,7 +219,6 @@ class BPlusTree{
 
         if (ptr_node.is_leaf){ //if is the first split of the root node
             left_node.keys[iter_child] = ptr_node.keys[iter_keys]; //left base split
-            left_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             left_node.n_keys++;
         }
 
@@ -227,7 +227,6 @@ class BPlusTree{
         for (iter_child = 0; iter_keys < ORDER + 1; iter_child++) {  //copy to right node
             right_node.children[iter_child] = ptr_node.children[iter_keys];
             right_node.keys[iter_child] = ptr_node.keys[iter_keys];
-            right_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             right_node.n_keys++;
             iter_keys++;
         }
@@ -244,7 +243,6 @@ class BPlusTree{
         ptr_node.children[pos] = left_node.disk_id;
 
         ptr_node.keys[0] = ptr_node.keys[ORDER / 2];
-        ptr_node.records_id[0] = ptr_node.records_id[ORDER/2];
         ptr_node.children[pos + 1] = right_node.disk_id;
         ptr_node.n_keys = 1;
         ptr_node.is_leaf = false;
@@ -271,7 +269,6 @@ class BPlusTree{
         for (iter_child = 0; iter_keys < ORDER / 2; iter_child++) {
             left_node.children[iter_child] = ptr_node.children[iter_keys];
             left_node.keys[iter_child] = ptr_node.keys[iter_keys];
-            left_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             left_node.n_keys++;
             iter_keys++;
         }
@@ -279,7 +276,6 @@ class BPlusTree{
 
         if (ptr_node.is_leaf) { //if the node splitted is leaf
             left_node.keys[iter_child] = ptr_node.keys[iter_keys]; //left based split
-            left_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             left_node.n_keys++;
 
             //update the next and previous nodes
@@ -296,14 +292,13 @@ class BPlusTree{
             }
 
         }
-        parent_node.insertKeyInPosition(pos, ptr_node.keys[iter_keys], ptr_node.records_id[iter_keys]); //key promoted
+        parent_node.insertKeyInPosition(pos, ptr_node.keys[iter_keys]); //key promoted
 
         iter_keys++;
 
         for (iter_child = 0; iter_keys < ORDER + 1; iter_child++) {
             right_node.children[iter_child] = ptr_node.children[iter_keys];
             right_node.keys[iter_child] = ptr_node.keys[iter_keys];
-            right_node.records_id[iter_child] = ptr_node.records_id[iter_keys];
             right_node.n_keys++;
 
             iter_keys++;
@@ -350,10 +345,10 @@ public:
      *
      * @param value
      */
-    void insert(const T value, const long record_id = -1){
+    void insert(const T value){
         node root = readNode(header.disk_id);
-        int state = insert(root, value, record_id);
-        if (state == OVERFLOW) {
+        int state = insert(root, value);
+        if (state == BP_OVERFLOW) {
             splitRoot();
         }
     }
@@ -363,7 +358,7 @@ public:
      * @brief Print the tree values to the console
      * 
      */
-    void showTree() {
+    void print_tree() {
         node root = readNode(header.disk_id);
         showTree(root, 0);
         std::cout << "________________________\n";
@@ -464,88 +459,18 @@ public:
     ~BPlusTree(){
     }
 
-    bool isKeyPresent(const T &val){
-        node root = readNode(header.disk_id);
-        int key_pos = -1;
-        long key_disk_id = findKey(root, val, key_pos);
-        if (key_disk_id == -1)
-            return false;
-        else
-            return true;
-    }
 
-    long getRecordIdByKeyValue(const T &val, int &disk_access){
-        node root = readNode(header.disk_id);
-        disk_access++;
-        int key_pos = -1;
-        long key_disk_id = findKey(root, val, key_pos, disk_access);
-        if (key_disk_id != -1){
-            node key_node = readNode(key_disk_id);
-            disk_access++;
-            return key_node.records_id[key_pos];
-        }
-        return key_disk_id; //return -1
-    }
 
-    void find(const T &val, long &record_id ,int &key_pos){
-        node root = readNode(header.disk_id);
-        record_id = findKey(root, val, key_pos);
-    }
-
-    long findKey (node &ptr, const T &val, int &key_pos, int &disk_access){
-        int pos = 0;
-        while (pos < ptr.n_keys && ptr.keys[pos] < val)
-            pos++;
-
-        if (!ptr.is_leaf){
-            long page_id = ptr.children [pos];
-            node child = readNode (page_id);
-            disk_access++;
-            return findKey(child, val, key_pos, disk_access);
-        } else {
-            if (ptr.keys [pos] != val)
-                return -1;
-            else {
-                key_pos = pos;
-                return ptr.disk_id;
-            }
-        }
-
-    }
-
-    long findKey (node &ptr, const T &val, int &key_pos){
-        int pos = 0;
-        while (pos < ptr.n_keys && ptr.keys[pos] < val)
-            pos++;
-
-        if (!ptr.is_leaf){
-            long page_id = ptr.children [pos];
-            node child = readNode (page_id);
-            return findKey(child, val, key_pos);
-        } else {
-            if (ptr.keys [pos] != val)
-                return -1;
-            else {
-                key_pos = pos;
-                return ptr.disk_id;
-            }
-        }
-
-    }
 
 /**
      * @brief
      *
      * @param val
      */
-    void search (const T &val) {
+    std::optional<T> find (const T &val) {
         node root = readNode(header.disk_id);
-        int res = search (root, val);
-        if (res == -1)
-            std::cout << "Not found\n";
-        else
-            std::cout << "Found!\n";
-
+        access++;
+        return find (root, val);
     }
 
     /**
@@ -555,7 +480,7 @@ public:
      * @param val
      * @return int
      */
-    int search (node &ptr, const T &val){
+     std::optional<T> find (node &ptr, const T &val){
         int pos = 0;
         while (pos < ptr.n_keys && ptr.keys[pos] < val)
             pos++;
@@ -563,16 +488,13 @@ public:
         if (!ptr.is_leaf){
             long page_id = ptr.children [pos];
             node child = readNode (page_id);
-            return search (child, val);
-        } else {
-            if (ptr.keys [pos] != val){
-                return -1;
-            }else {
-                long page_record = ptr.children [pos];
-                return page_record;
-            }
+            access++;
+            return find (child, val);
         }
 
+        if (ptr.keys[pos] == val) {
+            return ptr.keys[pos];
+        } else return std::nullopt;
     }
 
     /**
@@ -611,14 +533,13 @@ public:
             if (ptr.keys [pos] >= first){
                 std::cout << ptr.keys [pos] << "." << ptr.disk_id << " - ";
                 //res.push_back (ptr.children [pos]);
-                res.push_back (ptr.records_id[pos]);
+
             }
             pos++;
             node temp = ptr;
             while (temp.keys [pos] <= second && pos < temp.n_keys){
                 std::cout << temp.keys [pos] << "." << temp.disk_id << " - ";
                 //res.push_back (temp.children [pos]);
-                res.push_back (temp.records_id[pos]);
                 pos++;
                 if (pos == temp.n_keys ){
                     temp = readNode (temp.next_node);
@@ -628,6 +549,17 @@ public:
         }
     }
 
+
+    void start_measures(){
+        t_start = clock();
+        this->access = 0;
+    }
+
+    std::pair<double,long> end_measures(){
+        t_end = clock();
+        time_taken = double(t_end - t_start)/CLOCKS_PER_SEC; 
+        return {time_taken, this->access};
+    }
 
 
 };
@@ -814,9 +746,6 @@ public:
         return temp.keys[keys_pos];
     }
 
-    long getRecordId(){
-        node temp = readNode(node_disk_id);
-        return temp.records_id[keys_pos];
-    }
+
 
 };

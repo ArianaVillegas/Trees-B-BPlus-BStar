@@ -4,6 +4,7 @@
 #include <bstar.h>
 #include <pagemanager.h>
 #include <record.h>
+#include <index.h>
 #include <numeric>
 
 
@@ -79,6 +80,9 @@ TEST_F(DiskBasedBtree, Persistence) {
         bt.print_tree();
     }
     bt.print_tree();
+    Record<>a("magenta");
+    std:: cout << bt.find(a).value_or("No hay");
+
 
     std::ostringstream out;
     bt.print(out);
@@ -86,6 +90,8 @@ TEST_F(DiskBasedBtree, Persistence) {
     std::string result = std::accumulate(all_values.begin(), all_values.end(), std::string(""));
     EXPECT_EQ(out.str(), result.c_str());
 }
+
+
 
 /* B+Tree Tests */
 
@@ -100,7 +106,7 @@ TEST_F(DiskBasedBPlusTree, IndexingRandomElements) {
     for(auto c : all_values) {
         Record<> r(c.c_str());
         bt.insert(r);
-        bt.showTree();
+        bt.print_tree();
     }
     std::ostringstream out;
     bt.print(out);
@@ -118,9 +124,9 @@ TEST_F(DiskBasedBPlusTree, Persistence) {
         all_values.push_back(c);
         Record<> r(c.c_str());
         bt.insert(r);
-        bt.showTree();
+        bt.print_tree();
     }
-    bt.showTree();
+    bt.print_tree();
 
     std::ostringstream out;
     bt.print(out);

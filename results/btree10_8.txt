@@ -1,0 +1,12 @@
+bitches:	F: 	 G: 	 I: 	 P: 	 S: putas, putos[Noun]		 L: 	tiempo: 3.1e-05	accesos a disco: 6
+lacerating:	F: 	 G: 	 I: 	 P: 	 S: lacerando[Verb]		 L: 	tiempo: 2.8e-05	accesos a disco: 6
+quadratically:	F: 	 G: quadratisch[Adverb]		 I: 	 P: 	 S: cuadráticamente[Adjective]		 L: 	tiempo: 3.2e-05	accesos a disco: 6
+jostle:	F: bousculer[Verb]		 G: 	 I: 	 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 6
+spouse:	F: 	 G: 	 I: 	 P: 	 S: esposo, esposa[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 6
+mediation:	F: 	 G: 	 I: 	 P: 	 S: 	 L: interventus		tiempo: 2.5e-05	accesos a disco: 6
+calibration:	F: calibration[Noun]		 G: kalibrierung[Noun]		 I: calibratura[Noun]		 P: calibração		 S: calibracio/n[Noun]		 L: 	tiempo: 2.6e-05	accesos a disco: 6
+talked:	F: 	 G: 	 I: 	 P: 	 S: hablo/		 L: 	tiempo: 2.6e-05	accesos a disco: 6
+chariot:	F: 	 G: 	 I: carro[Noun]		 P: 	 S: 	 L: 	tiempo: 2.6e-05	accesos a disco: 6
+tapes:	F: 	 G: 	 I: nastre[Noun]		 P: fitas[Noun]		 S: 	 L: 	tiempo: 3e-05	accesos a disco: 6
+
+tiempo total: 0.000276 accesos totales: 60

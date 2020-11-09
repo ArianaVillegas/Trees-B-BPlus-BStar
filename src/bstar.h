@@ -4,6 +4,7 @@
 #include <memory>
 #include <stack>
 #include <queue>
+#include <time.h>
 
 template <class T, int BSTAR_ORDER>
 class bstar;
@@ -27,6 +28,9 @@ private:
 
     int index;
     long node_id;
+
+    // Exection time and disk access
+    long access;
 public:
     bstariterator(std::shared_ptr<pagemanager> &pm) : 
         pm(pm), node_id(-1), index(0){}
@@ -53,7 +57,7 @@ public:
     bstariterator(std::shared_ptr<pagemanager> &pm, const bstariterator& other): 
         pm(pm), node_id(other.node_id), index(other.index), q(other.q) {}
 
-    void find(const T &key) {
+    void find_itr(const T &key) {
         Node<2*F_BLOCK> n = read_root();
         int lb = 0;
         while (lb < n.count && n.keys[lb] < key) {
@@ -109,6 +113,7 @@ public:
     Node<> read_node(long page_id) {
         Node<> n{-1};
         pm->recover(page_id, n);
+        access++;
         return n;
     }
 
@@ -204,6 +209,14 @@ public:
             return n.children[index]; 
         }
     }
+
+    void start_measures(){
+        this->access = 0;
+    }
+
+    long end_measures(){
+        return this->access;
+    }
 };
 
 
@@ -281,6 +294,11 @@ public:
         long erase{-1};
     } header;
 
+    // Exection time and disk access
+    clock_t t_start, t_end;
+    double time_taken;
+    long access;
+
 private:
     std::shared_ptr<pagemanager> pm;
 
@@ -303,18 +321,21 @@ private:
     Node<> read_node(long page_id) {
         Node<> n{-1};
         pm->recover(page_id, n);
+        this->access++;
         return n;
     }
 
     Node<2*F_BLOCK> read_root() {
         Node<2*F_BLOCK> n{-1};
         pm->recover(1, n);
+        this->access++;
         return n;
     }
 
     template <int SIZE>
-    bool write_node(long page_id, Node<SIZE> n) { 
+    void write_node(long page_id, Node<SIZE> n) { 
         pm->save(page_id, n);
+        this->access++;
     }
 
     template <int SIZE>
@@ -590,6 +611,26 @@ private:
 
 
     template <int SIZE>
+    std::optional<T> find(Node<SIZE> &ptr, T &value) {
+        int pos = 0;
+        while(pos < ptr.count && ptr.keys[pos] < value)
+            pos++;
+        if(ptr.keys[pos] == value){
+            return ptr.keys[pos];
+        }else{
+            if(ptr.children[ptr.count]){
+                long page_id = ptr.children[pos];
+                Node<> child = read_node(page_id);
+                return find(child,value);
+            } else {
+                return std::nullopt;
+            }
+        }
+        
+    }
+
+
+    template <int SIZE>
     void dfs(Node<SIZE> &ptr) {
         int i;
         for (i = 0; i < ptr.count; i++) {
@@ -703,9 +744,9 @@ public:
         return remove(k,temp,root);
     }
 
-    iterator find(const T &key) {
+    iterator find_itr(const T &key) {
         iterator it(this->pm);
-        it.find(key);
+        it.find_itr(key);
         return it;
     }
 
@@ -719,6 +760,11 @@ public:
         return it;
     }
 
+    std::optional<T> find(T &key) {
+        Node<2*F_BLOCK> root = read_root();
+        return find(root, key);
+    }
+
     void dfs() {
         Node<2*F_BLOCK> root = read_root();
         dfs(root);
@@ -727,6 +773,17 @@ public:
     void bfs() {
         Node<2*F_BLOCK> root = read_root();
         bfs(root);
+    }
+
+    void start_measures(){
+        t_start = clock();
+        this->access = 0;
+    }
+
+    std::pair<double,long> end_measures(){
+        t_end = clock();
+        time_taken = double(t_end - t_start)/CLOCKS_PER_SEC; 
+        return {time_taken, this->access};
     }
 
     void print_tree() {

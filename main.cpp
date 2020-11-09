@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	
-	parse("data/French.txt","data/processed_Frech.txt");
+	parse("data/French.txt","data/processed_French.txt");
 	parse("data/German.txt","data/processed_German.txt");
 	parse("data/Italian.txt","data/processed_Italian.txt");
 	parse("data/Portuguese.txt","data/processed_Portuguese.txt");
